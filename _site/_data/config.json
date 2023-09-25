@@ -1,9 +1,8 @@
 {
-  "siteTitle": "My Eleventy Site with Tailwind CSS",
-  "url": "https://example.com",
-  "description": "This is a default template for Eleventy with TailwindCSS",
-  "keywords": "eleventy, 11ty, tailwind, tailwindcss, css, ssg",
+  "siteTitle": "Werte verbinden",
+  "url": "https://werteverbinden.org",
+  "description": "Wir haben mehr gemeinsam als du denkst",
+  "keywords": "bitcoin, spd, cdu, linke, grüne, afd",
   "image": "https://www.11ty.dev/img/built/IdthKOzqFA-350.avif",
-  "twitter": "@jeremy_daly",
   "card": "summary"
 }
