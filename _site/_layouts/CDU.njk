@@ -1,14 +1,15 @@
 ---
 title: CDU
-layout: parteipage.njk
+layout: base.njk
 tags: page
 background-color: {{ background-color }}
 quote_svg: true
+blockquote_content: hallo cdu
 ---
 
-<h1 class="pt-24 pb-6 text-center bg-clip-text bg-gradient-to-r from-cdu-black via-cdu-red to-cdu-gold">
+<h1 class="py-12 pt-24 text-center bg-gradient-to-r from-cdu-red to-cdu-gold ">
     <span class="text-8xl font-bold text-transparent bg-clip-text text-white">
-        {{ parteiname }}
+        {{ title }}
     </span>
 </h1>
 
@@ -27,5 +28,14 @@ quote_svg: true
 </section>
 
 <section class="m-5 max-w-screen-sm flex flex-col text-left  ">
-    {{ additional_content | safe }}
+     {{ additional_content | safe }}
 </section>
+
+  <section class="m-10 max-w-screen-sm items-start">
+    <h2 class="text-5xl my-6">Und jetzt?</h2>
+    <p>Du kannst deine lokalen Politiker fragen, wie sie zu den Themenbereichen stehen. <br/>
+    Du kannst es aber auch selbst in die Hand nehmen. Es ist befreiend, mehr Kontrolle seiner eigenen Finanzen bewusst zu sein, ist aber auch mit Risiken verbunden.<br/>
+    Sei dir bewusst, dass es Interessengruppen gibt, die Bitcoin auf gar keinen Fall wollen. Sei dir auch bewusst, dass auch ich gewisse Interessen verfolge. </p>😋
+</section>
+
+{% include "navigation.njk" %}
