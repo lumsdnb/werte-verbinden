@@ -38,16 +38,15 @@
     <meta name="twitter:domain" content="{% if image %}{{ image }}{% else %}{{ config.image }}{% endif %}">
 
   </head>
-  <body>
+  <body class="bg-{{ page.data.background-color }}">
     <header>
     </header> 
     <div>
 			{{ content | safe }}
     </div>
 		
-    <footer class="mt-0 text-center text-base text-gray-500">
-      <p>&copy; {{ '' | year }} - <a href="{{ config.url }}">{{ config.siteTitle }}</a> | <a href="/sitemap.xml" class="text-indigo-500">Site Map</a></p>
-			<p class="pt-1 text-sm">Made with ❤️ by <a href="https://twitter.com/jeremy_daly" target="_blank" class="text-pink-500">Jeremy Daly</a></p>
+    <footer class="pt-5 pb-5 text-center bg-lums-blue  text-gray-300 text-sm">
+      <p>&copy; {{ '' | year }} - Made with ❤️ by <a href="https://lums.io" target="_blank" class="text-lums-accent">lums</a> (yes, it was actually fun to build this)</p>
     </footer>
   </body>
 </html>
