@@ -15,6 +15,7 @@ module.exports = {
         'afd-blue-dark': '#cc0000',
         'afd-gradient-second': '#0072b3',
         'lums-accent': '#A1E8AF',
+        'lums-blue': '#383f51',
       },
     },
   },
