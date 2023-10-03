@@ -2,6 +2,6 @@
   import '../app.css';
 </script>
 
-<div class="m-0 bg-slate-700 h-screen">
+<div class="m-0 h-screen">
   <slot />
 </div>
