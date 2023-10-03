@@ -3,9 +3,17 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
+      fontFamily: {
+        ubuntubold: ['Ubuntu-Bold', 'sans-serif'],
+        ubuntu: ['Ubuntu-Regular', 'sans-serif'],
+        ptsans: ['PT Sans', 'sans-serif'],
+        redhat: ['Red Hat Display', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+        politics: ['Politics', 'sans-serif'],
+      },
       colors: {
         'partei-red': '#b72837',
-
         'cdu-mint': '#52b7c1',
         'cdu-darkblue': '#2d3c4b',
         'cdu-white': '#fff',

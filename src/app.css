@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&family=Ubuntu:wght@700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Ubuntu-Bold';
+  src: url('/fonts/Ubuntu-Bold.ttf');
+}
+@font-face {
+  font-family: 'Ubuntu-Regular';
+  src: url('/fonts/Ubuntu-Regular.ttf');
+}
+@font-face {
+  font-family: 'PT Sans';
+  src: url('/fonts/PTSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('/fonts/RedHatDisplay-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-ExtraBold.ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Black.ttf');
+}
+@font-face {
+  font-family: 'Politics';
+  src: url('/fonts/PoliticsHeadv1_9.otf');
+}
+
+a {
+  color: #ff9900;
+}
