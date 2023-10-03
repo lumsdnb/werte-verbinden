@@ -20,11 +20,6 @@
   <span class="bg-white text-black text-3xl"
     >Stabiles Geld für Europa. Für alles andere gibt es den Euro.</span
   >
-  <p class="font-normal p-4">
-    Bitcoin bietet eine stabile Alternative für Europa. Wenn du nach einer
-    Währung suchst, die weniger anfällig für Inflation und politische Einflüsse
-    ist, dann ist Bitcoin eine überlegenswerte Option.
-  </p>
   <span class="bg-partei-red text-white text-3xl"
     >Wählt bitcoin - es ist sehr gut!</span
   >
