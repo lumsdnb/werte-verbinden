@@ -11,6 +11,7 @@ export default {
         inter: ['Inter', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
         politics: ['Politics', 'sans-serif'],
+        partei: ['Partei', 'sans-serif'],
       },
       colors: {
         'partei-red': '#b72837',

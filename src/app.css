@@ -31,6 +31,10 @@
   font-family: 'Politics';
   src: url('/fonts/PoliticsHeadv1_9.otf');
 }
+@font-face {
+  font-family: 'Partei';
+  src: url('/fonts/DieFONT-BoldCondensed.ttf');
+}
 
 a {
   color: #ff9900;

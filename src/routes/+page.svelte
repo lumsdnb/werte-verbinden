@@ -39,10 +39,10 @@
 
 <!-- <StickerQuotes /> -->
 
-<section class="text-white bg-cdu-darkblue m-0 p-10 w-full items-start">
-  <h2
-    class="  lg:text-8xl md:text-5xl sm:text-6xl p-5 font-inter tracking-tight"
-  >
+<section
+  class="text-white bg-cdu-darkblue m-0 p-10 w-full flex-col items-start"
+>
+  <h2 class="lg:text-8xl md:text-5xl sm:text-6xl p-5 font-inter tracking-tight">
     DAMIT UNSERE WIRTSCHAFT <span class="text-cdu-mint">
       <br />
       NICHT DIE KRISE KRIEGT.</span
@@ -176,7 +176,9 @@
 </section>
 
 <section class="bg-green-tanne text-green-sand p-10">
-  <h2 class="text-7xl p-5 font-roboto tracking-tighter">
+  <h2
+    class="lg:text-7xl md:text-7xl sm:text-7xl md:p-5 sm:p-2 py-5 font-roboto tracking-tighter"
+  >
     Energiewende und Wirtschaft vereinen.
   </h2>
   <!-- <BitcoinSvg fillColor="#fff17a" backgroundColor="#005437" /> -->
@@ -255,11 +257,11 @@
   </p>
 </section>
 
-<section class="bg-pirate-orange p-10">
-  <span class=" text-white bg-volt-violet text-5xl m-4 font-politics"
-    >TRANSPARENTER ALS POLITIK</span
-  >
-  <p>
+<section class="bg-pirate-orange pb-10 px-0">
+  <h2 class=" text-white bg-volt-violet text-5xl m-0 p-10 font-politics">
+    TRANSPARENTER ALS POLITIK
+  </h2>
+  <p class="p-10">
     Alle Transaktionen auf der Bitcoin-Blockchain sind nachverfolgbar, der
     Quellcode ist öffentlich einsehbar. Während die Zinspolitik der EZB schwer
     zu durschschauen ist, ist die Geldpolitik von Bitcoin jederzeit berechenbar
@@ -267,11 +269,11 @@
   </p>
 </section>
 
-<h2 class=" text-black text-3xl p-5">
+<h2 class="font-partei text-black text-3xl p-5">
   Stabiles Geld für Europa. Für alles andere gibt es den Euro.
 </h2>
 
-<h3 class="bg-partei-red text-white text-5xl p-5">
+<h3 class="bg-partei-red text-white text-xl p-5">
   Wählt bitcoin - es ist sehr gut!
 </h3>
 
