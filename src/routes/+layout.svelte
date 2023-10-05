@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head><title>Werte verbinden</title></svelte:head>
-<main class="m-0 p-0 text-lg w-full">
+<main class="m-0 p-0 text-lg w-full flex flex-col justify-center">
   <RainbowLine />
   <slot />
 

@@ -32,9 +32,9 @@
 </section> -->
 
 <section
-  class="text-white bg-cdu-darkblue m-0 p-10 w-full flex-col items-start"
+  class="text-white bg-cdu-darkblue m-0 p-10 w-full flex-col items-start md:px-60"
 >
-  <h2 class="md:text-8xl text-4xl scale-110 pb-5 font-inter tracking-tight">
+  <h2 class=" md:text-8xl text-4xl scale-110 pb-5 font-inter tracking-tight">
     DAMIT UNSERE WIRTSCHAFT <span class="text-cdu-mint">
       <br />
       NICHT DIE KRISE KRIEGT.</span
@@ -56,7 +56,9 @@
   </p>
 </section>
 
-<section class="bg-afd-blue text-white p-2 max-w-full items-start font-barlow">
+<section
+  class="lg:px-60 bg-afd-blue text-white p-2 max-w-full items-start font-barlow"
+>
   <h2
     class="md:text-9xl text-7xl font-roboto scale-110 tracking-tight p-5 relative left-1"
   >
@@ -163,7 +165,7 @@
   </div>
 </section>
 <section
-  class="bg-volt-violet p-10 text-white font-ubuntu flex flex-col items-center gap-3"
+  class="lg:px-60 bg-volt-violet p-10 text-white font-ubuntu flex flex-col items-center gap-3"
 >
   <h2 class="text-5xl scale-110 font-ubuntubold p-3">
     Stabile Währung wie in der Schweiz.
@@ -189,7 +191,9 @@
   </p>
 </section>
 
-<section class="bg-green-tanne text-green-sand p-10 flex flex-col gap-3">
+<section
+  class="lg:px-60 bg-green-tanne text-green-sand p-10 flex flex-col gap-3"
+>
   <h2
     class="lg:text-9xl text-5xl scale-110 -rotate-3 md:p-5 sm:p-2 py-5 font-roboto tracking-tighter"
   >
@@ -220,7 +224,7 @@
   </p>
 </section>
 
-<section class="bg-fdp-yellow p-10">
+<section class="lg:px-60 bg-fdp-yellow p-10">
   <h2
     class="text-fdp-blue text-6xl scale-110 relative left-3 py-5 font-roboto tracking-tight"
   >
@@ -248,7 +252,7 @@
     ohne staatliche Eingriffe.
   </p>
 </section>
-<section class="bg-linke-red py-2">
+<section class="lg:px-60 bg-linke-red py-2">
   <h2
     class=" text-white scale-105 rotate-3 relative -left-3 text-right font-inter text-5xl tracking-tighter p-5"
   >
@@ -280,7 +284,7 @@
   </article>
 </section>
 
-<section class="bg-pirate-orange pb-10 px-3">
+<section class="lg:px-60 bg-pirate-orange pb-10 px-3">
   <h2
     class=" text-white bg-volt-violet text-4xl rotate-3 scale-110 max-w-fit p-5 font-politics text-center relative top-10"
   >
@@ -293,20 +297,19 @@
     und kann von jedem Teilnehmer des Netzwerks überprüft werden.
   </p>
 </section>
-<section class="p-5 border-solid border-black">
-  <h2 class="font-partei text-black text-6xl py-7">
-    Stabiles Geld für Europa. Für alles andere gibt es den Euro.
-  </h2>
-  <p>
-    Das Bitcoin Netzwerk läuft seit 2009, und wir haben irgendwie noch keinen
-    Weg gefunden, es zu stoppen.
-  </p>
+<section class="m-2 p-0 border-black border-4">
+  <div class="m-2 px-3 mb-0 py-1">
+    <h2 class="font-partei text-black text-6xl py-4 pb-0">
+      Stabiles Geld für Europa. Für alles andere gibt es den Euro.
+    </h2>
+  </div>
+  <h3
+    class="bg-partei-red px-0 scale-110 relative top-1 m-0 text-white text-xl p-4 text-center"
+  >
+    Wählt Bitcoin - es ist sehr gut!
+  </h3>
 </section>
-<h3 class="bg-partei-red text-white text-xl p-2 text-center">
-  Wählt Bitcoin - es ist sehr gut!
-</h3>
 
-<!-- <FAQ /> -->
 <section>
   <ContactForm />
   <RainbowLine />
