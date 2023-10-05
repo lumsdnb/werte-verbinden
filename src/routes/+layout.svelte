@@ -4,7 +4,7 @@
 
 <svelte:head><title>Werte verbinden</title></svelte:head>
 
-<div class="m-0 h-screen">
+<div class="m-0 p-0">
   <slot />
   <footer
     class="shadow-inner flex flex-col justify-center items-center gap-4 py-10 text-center bg-lums-blue text-gray-300 text-sm"
@@ -15,7 +15,8 @@
       und so.
       <br />Geld ist ein komplexes Thema, und diese Webseite dient
       ausschließlich zu Informationszwecken. Du solltest selbst recherchieren
-      und weitere Quellen evaluieren, bevor du riskante Entscheidungen triffst.</span
+      und weitere Quellen evaluieren, bevor du finanzielle Entscheidungen
+      triffst.</span
     >
     <br />
     <span>
