@@ -3,6 +3,15 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
+      animation: {
+        'zoom-in': 'zoom-in 2s forwards',
+      },
+      keyframes: {
+        'zoom-in': {
+          '0%': { transform: 'scale(1)', opacity: 0 },
+          '100%': { transform: 'scale(1.1)', opacity: 1 },
+        },
+      },
       fontFamily: {
         ubuntubold: ['Ubuntu-Bold', 'sans-serif'],
         ubuntu: ['Ubuntu-Regular', 'sans-serif'],

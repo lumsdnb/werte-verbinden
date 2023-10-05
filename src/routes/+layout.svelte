@@ -5,9 +5,9 @@
 </script>
 
 <svelte:head><title>Werte verbinden</title></svelte:head>
-<div class="m-0 p-0">
+<main class="m-0 p-0 text-lg w-full">
   <RainbowLine />
   <slot />
 
   <Footer />
-</div>
+</main>
