@@ -1,5 +1,4 @@
 <script>
-  import StickerQuotes from '$lib/StickerQuotes.svelte';
   import BitcoinSvg from '$lib/assets/BitcoinSVG.svelte';
   import moneysupply from '$lib/assets/images/euro money supply.webp';
   import purchasingpower from '$lib/assets/images/purchasing power.png';
@@ -7,8 +6,11 @@
 </script>
 
 <header class="flex justify-between backdrop-blur-3xl">
-  <!-- 8 equally sized boxes -->
+  <h1 class="invisible absolute top-0 left-0">
+    Werte verbinden - das Thema was alle betrifft, aber niemand drüber redet.
+  </h1>
 
+  <!-- 8 equally sized boxes -->
   <div class="flex-1 w-1/8 relative h-24 bg-linke-red" />
   <div class="flex-1 w-1/8 h-24 relative bg-pirate-orange" />
   <div class="flex-1 w-1/8 h-24 relative bg-fdp-yellow" />
@@ -16,11 +18,6 @@
   <div class="flex-1 w-1/8 h-24 relative bg-afd-blue" />
   <div class="flex-1 w-1/8 h-24 relative bg-cdu-darkblue" />
   <div class="flex-1 w-1/8 h-24 relative bg-volt-violet" />
-
-  <!-- Heading text overlay -->
-  <h1
-    class="absolute inset-0 flex items-center justify-center text-4xl font-bold"
-  />
 </header>
 
 <!-- <section class="m-5 max-w-2xl flex flex-col items-center">
@@ -42,16 +39,19 @@
 
 <!-- <StickerQuotes /> -->
 
-<section class="text-white bg-cdu-darkblue m-0 max-w-full items-start p-20">
-  <h2 class="  text-5xl p-5 font-inter tracking-tight">
-    DAMIT UNSERE WIRTSCHAFT <span class="text-cdu-mint"
-      >NICHT DIE KRISE KRIEGT.</span
+<section class="text-white bg-cdu-darkblue m-0 p-10 w-full items-start">
+  <h2
+    class="  lg:text-8xl md:text-5xl sm:text-6xl p-5 font-inter tracking-tight"
+  >
+    DAMIT UNSERE WIRTSCHAFT <span class="text-cdu-mint">
+      <br />
+      NICHT DIE KRISE KRIEGT.</span
     >
   </h2>
   <p>
-    Das Thema Geld an sich ist oft kein Diskussionspunkt. In politischen
-    Debatten und Wahlprogrammen dreht es sich in erster Linie darum, was man
-    damit machen will. <br />
+    Über Geld und wo es herkommt redet man nicht. In politischen Debatten und
+    Wahlprogrammen dreht es sich in erster Linie darum, was man damit machen
+    will. <br />
   </p>
   <p>
     <a
@@ -70,13 +70,16 @@
     Wir nutzen täglich den Euro, weil er als stabil gilt. Aber ist das wirklich
     so?
   </p>
-  <img src={purchasingpower} alt="money supply of the euro" />
-  <aside class="opacity-70 mb-4 text-right">
-    Source: <a
-      href="https://www.statista.com/statistics/1055948/value-euro-since-2000/"
-      >Statista</a
-    >
-  </aside>
+  <div class="">
+    <img src={purchasingpower} alt="money supply of the euro" />
+    <aside class="opacity-70 mb-4 text-right">
+      Source: <a
+        href="https://www.statista.com/statistics/1055948/value-euro-since-2000/"
+        >Statista</a
+      >
+    </aside>
+  </div>
+  <p>Laut offiziellen Statistiken sieht die Realität anders aus.</p>
   <p>
     Der Euro setzt sich aus mehreren Geldformen M1-M4 zusammen. Jede davon
     wächst immer weiter, egal ob Krise oder nicht.
@@ -87,28 +90,44 @@
       >european-inflation-tracker.com</a
     >
   </aside>
+
+  <section>
+    <div class="bg-blue-200 m-3 p-4 rounded-lg w-80">
+      <div class="flex justify-between items-center">
+        <div class="text-gray-700 text-lg">Inflationsrate Euro:</div>
+        <div class="text-green-600 text-lg">5.9%</div>
+      </div>
+      <div class="flex justify-between items-center mt-2">
+        <div class="text-gray-700 text-lg">Inflationsrate Bitcoin:</div>
+        <div class="text-yellow-600 text-lg">~1.8%</div>
+      </div>
+    </div>
+  </section>
+
   <p>
-    Laut offiziellen Statistiken sieht die Realität anders aus. Seit der
-    Einführung des Euros ist dessen Kaufkraft stetig gesunken, und die Geldmenge
-    wurde stetig erhöht.
-  </p>
-  <p>
-    Seit den Nachkriegsjahren gab es keine so hohe Inflation wie heute(SOURCE?).
-    Selbst das offizielle Inflationsziel von 2% pro Jahr wirkt verheerend - 1000
-    Euro auf dem Sparkonto sind schon nach etwa 5 Jahren nur noch ungefähr 905
-    Euro wert.
+    <a href="https://de.statista.com/themen/112/inflation/"
+      >Seit den Nachkriegsjahren gab es keine so hohe Inflation wie heute
+    </a>. <br />
+    Selbst das
+    <a
+      href="https://www.ecb.europa.eu/home/search/review/html/price-stability-objective.de.html"
+      >offizielle Inflationsziel von 2% pro Jahr</a
+    > wirkt verheerend - 1000 Euro auf dem Sparkonto sind damit nach etwa 5 Jahren
+    nur noch ungefähr 905 Euro wert.
   </p>
   <p>
     Viel mehr braucht es nicht um die Wichtigkeit von Bitcoin zu verstehen. Denn
     was dieser Zwang zu investieren mit jedem Bereich unserer Gesellschaft
     macht, ist unvorstellbar und kann von keiner Statistik quantifiziert werden.
   </p>
+
+  <h3 class="text-4xl mt-4">Warum ist das so?</h3>
   <p>
-    Laut eigenen Aussagen der EZB
-    (https://www.ecb.europa.eu/home/search/review/html/price-stability-objective.de.html)
-    ist eine gewisse Inflation gewollt. Zu hohe Inflation behindert das Sparen,
-    zu niedrige hält Menschen davon ab, ihr Geld auszugeben.
+    Laut eigenen Aussagen der EZB ist eine gewisse Inflation gewollt. Zu hohe
+    Inflation behindert das Sparen, zu niedrige hält Menschen davon ab, ihr Geld
+    auszugeben.
   </p>
+
   <p>
     Würdest du mit 0% monetärer Inflation plötzlich aufhören, dein ganzes Geld
     auszugeben? Oder würdest du dir mehr Gedanken darüber machen, wirklich
@@ -131,7 +150,7 @@
     </li>
   </ul>
 </section>
-<section class="bg-volt-violet p-5 text-white font-ubuntu">
+<section class="bg-volt-violet p-10 text-white font-ubuntu">
   <h2 class="text-7xl font-ubuntubold p-3 mb-5">
     Stabile Währung wie in der Schweiz.
   </h2>
@@ -156,23 +175,25 @@
   </p>
 </section>
 
-<section class="bg-green-tanne text-green-sand p-5">
+<section class="bg-green-tanne text-green-sand p-10">
   <h2 class="text-7xl p-5 font-roboto tracking-tighter">
     Energiewende und Wirtschaft vereinen.
   </h2>
   <!-- <BitcoinSvg fillColor="#fff17a" backgroundColor="#005437" /> -->
   <p>
     Bitcoin wird in dieser Hinsicht oft kritisiert, da das System sehr viel
-    Strom verbraucht. Und obwohl sich Prognosen zum Verbrauch immer wieder als
-    falsch herausstellen, besteht weiterhin Skepsis.
-    https://www.weforum.org/agenda/2017/12/bitcoin-consume-more-power-than-world-2020
-    (need more examples)
+    Strom verbraucht. Und obwohl sich <a
+      href="https://www.weforum.org/agenda/2017/12/bitcoin-consume-more-power-than-world-2020"
+      >Prognosen zum Verbrauch</a
+    > immer wieder als falsch herausstellen, besteht weiterhin Skepsis.
   </p>
   <p>
     Faktisch sieht das anders aus: das Bitcoin Netzwerk bezieht einen
-    beachtlichen Anteil seines Stromverbrauchst aus erneuerbaren Energien. Mit
-    Mining ist ein globaler Markt entstanden, der sich den günstigsten Preis für
-    Energie sucht.
+    <a
+      href="https://www.forbes.com/sites/seansteinsmith/2022/06/05/crypto-power-usage-is-helping-to-spur-renewable-energy-investments/"
+      >beachtlichen Anteil</a
+    > seines Stromverbrauchst aus erneuerbaren Energien. Mit Mining ist ein globaler
+    Markt entstanden, der sich den günstigsten Preis für Energie sucht.
   </p>
   <p>
     Ein Kohlekraftwerk ist irgendwann leer. Eine Solarzelle wird einmal gebaut
@@ -180,7 +201,7 @@
   </p>
 </section>
 
-<section class="bg-fdp-yellow p-5 text-black">
+<section class="bg-fdp-yellow p-10 text-black">
   <h2 class="text-fdp-blue text-7xl py-5 font-roboto tracking-tight">
     Das regelt der Markt.
   </h2>
@@ -200,16 +221,16 @@
       class="text-fdp-magenta">nicht zukunftstauglich</a
     >
     deklariert.
-    <br /> "Der Markt" sagt was anderes. Seit 2009 beweist Bitcoin, dass es auch
-    ohne zentral gelenkte Geldpolitik geht. Wer auf kurzfristige Preisspekulationen
+    <br /> "Der Markt" sagt was anderes. <i>Seit 2009</i> beweist Bitcoin, dass es
+    auch ohne zentral gelenkte Geldpolitik geht. Wer auf kurzfristige Preisspekulationen
     setzt, ohne der Gesellschaft einen Mehrwert zu bieten, fliegt raus. Und das komplett
     ohne staatliche Eingriffe.
   </p>
 </section>
-<section class="bg-linke-red p-5">
-  <span class=" text-white font-inter text-7xl tracking-tight p-5"
-    >Zentralbanken enteignen!</span
-  >
+<section class="bg-linke-red p-10">
+  <h2 class=" text-white font-inter text-7xl tracking-tight p-5">
+    Zentralbanken enteignen!
+  </h2>
   <h3>Wer Geld verzockt, wird nicht gerettet.</h3>
   <p>
     Ich finde es schwierig, diese Aussage weniger radikal auszudrücken. Es kann
@@ -234,7 +255,7 @@
   </p>
 </section>
 
-<section class="bg-pirate-orange p-5">
+<section class="bg-pirate-orange p-10">
   <span class=" text-white bg-volt-violet text-5xl m-4 font-politics"
     >TRANSPARENTER ALS POLITIK</span
   >
@@ -246,20 +267,6 @@
   </p>
 </section>
 
-<section>
-  <div class="bg-blue-200 m-3 p-4 rounded-lg w-80">
-    <h2 class="text-2xl font-semibold mb-4">Ein kleiner Vergleich</h2>
-    <div class="flex justify-between items-center">
-      <div class="text-gray-700 text-lg">Inflationsrate Euro:</div>
-      <div class="text-green-600 text-lg">5.9%</div>
-    </div>
-    <div class="flex justify-between items-center mt-2">
-      <div class="text-gray-700 text-lg">Inflationsrate Bitcoin:</div>
-      <div class="text-yellow-600 text-lg">~1.8%</div>
-    </div>
-  </div>
-</section>
-
 <h2 class=" text-black text-3xl p-5">
   Stabiles Geld für Europa. Für alles andere gibt es den Euro.
 </h2>
@@ -268,4 +275,4 @@
   Wählt bitcoin - es ist sehr gut!
 </h3>
 
-<FAQ />
+<!-- <FAQ /> -->
