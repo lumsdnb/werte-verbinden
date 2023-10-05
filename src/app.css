@@ -35,7 +35,11 @@
   font-family: 'Partei';
   src: url('/fonts/DieFONT-BoldCondensed.ttf');
 }
-
+@font-face {
+  font-family: 'Barlow';
+  src: url('/fonts/Barlow-Regular.ttf');
+}
 a {
   color: #ff9900;
+  font: Bold;
 }

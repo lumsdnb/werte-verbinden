@@ -12,6 +12,7 @@ export default {
         roboto: ['Roboto', 'sans-serif'],
         politics: ['Politics', 'sans-serif'],
         partei: ['Partei', 'sans-serif'],
+        barlow: ['Barlow', 'sans-serif'],
       },
       colors: {
         'partei-red': '#b72837',

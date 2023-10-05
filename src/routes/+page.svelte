@@ -2,22 +2,16 @@
   import BitcoinSvg from '$lib/assets/BitcoinSVG.svelte';
   import moneysupply from '$lib/assets/images/euro money supply.webp';
   import purchasingpower from '$lib/assets/images/purchasing power.png';
+  import ContactForm from '$lib/ContactForm.svelte';
   import FAQ from '$lib/FAQ.svelte';
+  import RainbowLine from '$lib/RainbowLine.svelte';
 </script>
 
 <header class="flex justify-between backdrop-blur-3xl">
   <h1 class="invisible absolute top-0 left-0">
     Werte verbinden - das Thema was alle betrifft, aber niemand drüber redet.
   </h1>
-
   <!-- 8 equally sized boxes -->
-  <div class="flex-1 w-1/8 relative h-24 bg-linke-red" />
-  <div class="flex-1 w-1/8 h-24 relative bg-pirate-orange" />
-  <div class="flex-1 w-1/8 h-24 relative bg-fdp-yellow" />
-  <div class="flex-1 w-1/8 h-24 relative bg-green-klee" />
-  <div class="flex-1 w-1/8 h-24 relative bg-afd-blue" />
-  <div class="flex-1 w-1/8 h-24 relative bg-cdu-darkblue" />
-  <div class="flex-1 w-1/8 h-24 relative bg-volt-violet" />
 </header>
 
 <!-- <section class="m-5 max-w-2xl flex flex-col items-center">
@@ -59,12 +53,12 @@
       >2018</a
     >
     litten viele noch unter den Folgen der Finanzkrise, die wir bis heute zahlen.
-    <br />Wie viele Krisen brauchen wir denn noch, bis sich wirklich was
-    verändert?
+    <br />Wie viele Finanzkrisen brauchen wir denn noch, bis sich wirklich was
+    nachhaltig verändert?
   </p>
 </section>
 
-<section class="bg-afd-blue text-white p-10 max-w-full items-start">
+<section class="bg-afd-blue text-white p-10 max-w-full items-start font-barlow">
   <h2 class="text-5xl py-5 font-roboto tracking-tight">Raus aus dem Euro!</h2>
   <p>
     Wir nutzen täglich den Euro, weil er als stabil gilt. Aber ist das wirklich
@@ -91,29 +85,37 @@
     >
   </aside>
 
-  <section>
+  <section class="text-2xl w-2xl flex sm:items-center md:items-end">
     <div class="bg-blue-200 m-3 p-4 rounded-lg w-80">
       <div class="flex justify-between items-center">
-        <div class="text-gray-700 text-lg">Inflationsrate Euro:</div>
-        <div class="text-green-600 text-lg">5.9%</div>
+        <div class="text-gray-700">Inflationsrate Euro:</div>
+        <a
+          href="https://www.statista.com/statistics/225698/monthly-inflation-rate-in-eu-countries/"
+          ><div class="text-green-600 font-black p-3">5.9%</div></a
+        >
       </div>
       <div class="flex justify-between items-center mt-2">
-        <div class="text-gray-700 text-lg">Inflationsrate Bitcoin:</div>
-        <div class="text-yellow-600 text-lg">~1.8%</div>
+        <div class="text-gray-700">Inflationsrate Bitcoin:</div>
+        <a href="https://charts.woobull.com/bitcoin-inflation/">
+          <div class="text-yellow-600 font-black p-3">~1.8%</div>
+        </a>
       </div>
     </div>
   </section>
 
   <p>
-    <a href="https://de.statista.com/themen/112/inflation/"
-      >Seit den Nachkriegsjahren gab es keine so hohe Inflation wie heute
+    >Seit den Nachkriegsjahren gab es keine so hohe Inflation wie <a
+      class="font-bold"
+      href="https://de.statista.com/themen/112/inflation/"
+      >heute
     </a>. <br />
-    Selbst das
+    Selbst das offizielle Inflationsziel von
     <a
+      class="text-xl font-bold"
       href="https://www.ecb.europa.eu/home/search/review/html/price-stability-objective.de.html"
-      >offizielle Inflationsziel von 2% pro Jahr</a
-    > wirkt verheerend - 1000 Euro auf dem Sparkonto sind damit nach etwa 5 Jahren
-    nur noch ungefähr 905 Euro wert.
+      >2%
+    </a>pro Jahr wirkt verheerend - 1000 Euro auf dem Sparkonto sind damit nach
+    etwa 5 Jahren nur noch ungefähr 905 Euro wert.
   </p>
   <p>
     Viel mehr braucht es nicht um die Wichtigkeit von Bitcoin zu verstehen. Denn
@@ -194,8 +196,9 @@
     <a
       href="https://www.forbes.com/sites/seansteinsmith/2022/06/05/crypto-power-usage-is-helping-to-spur-renewable-energy-investments/"
       >beachtlichen Anteil</a
-    > seines Stromverbrauchst aus erneuerbaren Energien. Mit Mining ist ein globaler
-    Markt entstanden, der sich den günstigsten Preis für Energie sucht.
+    > seines Stromverbrauchst aus erneuerbaren Energien, und fördert deren Ausbau
+    ohne staatliche Subventionen. Mit Mining ist ein globaler Markt entstanden, der
+    sich den günstigsten Preis für Energie sucht.
   </p>
   <p>
     Ein Kohlekraftwerk ist irgendwann leer. Eine Solarzelle wird einmal gebaut
@@ -223,8 +226,8 @@
       class="text-fdp-magenta">nicht zukunftstauglich</a
     >
     deklariert.
-    <br /> "Der Markt" sagt was anderes. <i>Seit 2009</i> beweist Bitcoin, dass es
-    auch ohne zentral gelenkte Geldpolitik geht. Wer auf kurzfristige Preisspekulationen
+    <br /> "Der Markt" sagt etwas anderes. <i>Seit 2009</i> beweist Bitcoin, dass
+    es auch ohne zentral gelenkte Geldpolitik geht. Wer auf kurzfristige Preisspekulationen
     setzt, ohne der Gesellschaft einen Mehrwert zu bieten, fliegt raus. Und das komplett
     ohne staatliche Eingriffe.
   </p>
@@ -238,10 +241,8 @@
     Ich finde es schwierig, diese Aussage weniger radikal auszudrücken. Es kann
     nicht sein, dass private Verluste weiterhin sozialisiert werden.Ich hab
     keine Lust, an einer ewigen Wachstumspolitik festzuhalten. Wer Lust auf
-    Casino hat, soll das selbst bezahlen.<br />
-    Seit der Finanzkrise 2008 sind Kontrollen von Banken stärker geworden
+    Casino hat, soll das selbst bezahlen.
   </p>
-
   <p>
     Bitcoin selbst hat keine Bankenrettungen. Wer sich entscheidet, mit
     Risikobehafteten Geschäften zu handeln, hat nichts zu melden wenn es doch
@@ -258,7 +259,7 @@
 
 <section class="bg-pirate-orange pb-10 px-0">
   <h2
-    class=" text-white bg-volt-violet text-5xl mx-2 p-5 font-politics rotate-6 relative top-10"
+    class=" text-white bg-volt-violet text-5xl mx-2 max-w-fit p-5 font-politics rotate-6 relative top-10"
   >
     TRANSPARENTER ALS POLITIK
   </h2>
@@ -273,9 +274,18 @@
 <h2 class="font-partei text-black text-3xl p-5">
   Stabiles Geld für Europa. Für alles andere gibt es den Euro.
 </h2>
+<p>
+  Offiziell gibt es so viele Euro-Varianten (M1 bis M4), dass selbst
+  Mathematikgenies Kopfschmerzen bekommen. Und die Inflation? Der Euro verliert
+  mehr Wert als ein Gummiball, den man die Treppe runterschmeißt!
+</p>
 
 <h3 class="bg-partei-red text-white text-xl p-2 text-center">
-  Wählt bitcoin - es ist sehr gut!
+  Wählt Bitcoin - es ist sehr gut!
 </h3>
 
 <!-- <FAQ /> -->
+<section>
+  <ContactForm />
+  <RainbowLine />
+</section>
