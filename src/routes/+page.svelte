@@ -310,7 +310,4 @@
   </h3>
 </section>
 
-<section>
-  <ContactForm />
   <RainbowLine />
-</section>
