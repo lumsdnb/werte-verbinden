@@ -11,3 +11,11 @@
 
   <Footer />
 </main>
+
+<style>
+  main {
+    overflow-x: hidden;
+    width: 100vw;
+    scrollbar-gutter: stable both-edges;
+  }
+</style>
