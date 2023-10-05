@@ -32,7 +32,7 @@
 </section> -->
 
 <section
-  class="text-white bg-cdu-darkblue m-0 p-10 w-full flex-col items-start md:px-60"
+  class="text-white bg-cdu-darkblue m-0 p-10 pt-16 w-full flex-col items-start md:px-60"
 >
   <h2 class=" md:text-8xl text-4xl scale-110 pb-5 font-inter tracking-tight">
     DAMIT UNSERE WIRTSCHAFT <span class="text-cdu-mint">
@@ -60,7 +60,7 @@
   class="lg:px-60 bg-afd-blue text-white p-2 max-w-full items-start font-barlow"
 >
   <h2
-    class="md:text-9xl text-7xl font-roboto scale-110 tracking-tight p-5 relative left-1"
+    class="md:text-9xl text-7xl font-roboto scale-110 tracking-tight p-5 py-10 relative left-1"
   >
     Raus aus <br />dem Euro!
   </h2>
@@ -167,7 +167,7 @@
 <section
   class="lg:px-60 bg-volt-violet p-10 text-white font-ubuntu flex flex-col items-center gap-3"
 >
-  <h2 class="text-5xl scale-110 font-ubuntubold p-3">
+  <h2 class="text-5xl scale-125 m-5 font-ubuntubold p-3">
     Stabile Währung wie in der Schweiz.
   </h2>
   <p>
@@ -226,24 +226,28 @@
 
 <section class="lg:px-60 bg-fdp-yellow p-10">
   <h2
-    class="text-fdp-blue text-6xl scale-110 relative left-3 py-5 font-roboto tracking-tight"
+    class="text-fdp-blue text-6xl scale-125 relative left-3 py-5 mb-7 font-roboto tracking-tight"
   >
-    Das regelt der Markt.
+    Das regelt <br />der
+    <span
+      class="underline decoration-8 decoration-fdp-magenta underline-offset-8"
+      >Markt.</span
+    >
   </h2>
   <p>
     Bitcoin wird immer wieder als <a
-      class="text-fdp-magenta"
+      class="text-fdp-magenta font-bold"
       href="https://www.finextra.com/blogposting/19256/cryptocurrency-is-dead-long-live-central-bank-digital-currency"
       >tot</a
-    >, veraltet,
+    >
     <a
       href="https://www.thetimes.co.uk/article/cryptocurrencies-are-a-fad-best-avoided-despite-paypal-accepting-bitcoin-fk8rdq0tx"
-      class="text-fdp-magenta">wertlos</a
+      class="text-fdp-magenta font-bold">wertlos</a
     >
     und
     <a
       href="https://nypost.com/2019/06/29/bitcoin-not-built-to-last-despite-recent-surge/"
-      class="text-fdp-magenta">nicht zukunftstauglich</a
+      class="text-fdp-magenta font-bold">nicht zukunftstauglich</a
     >
     deklariert.
     <br /> "Der Markt" sagt etwas anderes. <i>Seit 2009</i> beweist Bitcoin, dass
@@ -252,30 +256,30 @@
     ohne staatliche Eingriffe.
   </p>
 </section>
-<section class="lg:px-60 bg-linke-red py-2">
+<section class="lg:px-60 bg-linke-red py-2 flex flex-col">
   <h2
-    class=" text-white scale-105 rotate-3 relative -left-3 text-right font-inter text-5xl tracking-tighter p-5"
+    class=" text-white scale-110 relative -left-2 text-right self-center font-inter text-5xl tracking-tighter p-5"
   >
     Zentralbanken enteignen!
   </h2>
 
-  <div class="bg-black text-white py-3 text-center">
-    <span class="mx-4 text-3xl">Wer Geld verzockt wird nicht gerettet.</span>
+  <div class="bg-black text-white py-5 relative top-3 text-center">
+    <span class="mx-4 text-xl">Wer Geld verzockt wird nicht gerettet.</span>
   </div>
 
   <article class="m-2 mb-1">
-    <p class=" bg-white p-3">
+    <p class=" bg-white px-10 py-5">
       Ich finde es schwierig, diese Aussage weniger radikal auszudrücken. Es
       kann nicht sein, dass private Verluste weiterhin sozialisiert werden.Ich
       hab keine Lust, an einer ewigen Wachstumspolitik festzuhalten. Wer Lust
       auf Casino hat, soll das selbst bezahlen.
     </p>
-    <p class="bg-white p-3">
+    <p class="bg-white px-10 py-5">
       Bitcoin selbst hat keine Bankenrettungen. Wer sich entscheidet, mit
       Risikobehafteten Geschäften zu handeln, hat nichts zu melden wenn es doch
       nicht so gut läuft.
     </p>
-    <p class="bg-white p-3">
+    <p class="bg-white px-10 py-5">
       Im Gegensatz dazu stehen staatliche Währungen wie der Euro - wer da Geld
       verzockt, muss nur die richtigen Leute kennen, und denen verkaufen, dass
       das private Geschäft Systemrelevant ist.
@@ -297,7 +301,7 @@
     und kann von jedem Teilnehmer des Netzwerks überprüft werden.
   </p>
 </section>
-<section class="m-2 p-0 border-black border-4">
+<section class="m-2 mb-10 p-0 border-black border-4">
   <div class="m-2 px-3 mb-0 py-1">
     <h2 class="font-partei text-black text-6xl py-4 pb-0">
       Stabiles Geld für Europa. Für alles andere gibt es den Euro.
@@ -310,4 +314,4 @@
   </h3>
 </section>
 
-  <RainbowLine />
+<RainbowLine />
