@@ -252,16 +252,17 @@
     Im Gegensatz dazu stehen staatliche Währungen wie der Euro - wer da Geld
     verzockt, muss nur die richtigen Leute kennen, und denen verkaufen, dass das
     private Geschäft Systemrelevant ist.
-    https://www.sueddeutsche.de/wirtschaft/finanzkrise-kosten-deutschland-1.4126273
     <br /> Bei welcher Partei muss ich ein Kreuz machen, damit das aufhört?
   </p>
 </section>
 
 <section class="bg-pirate-orange pb-10 px-0">
-  <h2 class=" text-white bg-volt-violet text-5xl m-0 p-10 font-politics">
+  <h2
+    class=" text-white bg-volt-violet text-5xl mx-2 p-5 font-politics rotate-6 relative top-10"
+  >
     TRANSPARENTER ALS POLITIK
   </h2>
-  <p class="p-10">
+  <p class="p-10 pt-20">
     Alle Transaktionen auf der Bitcoin-Blockchain sind nachverfolgbar, der
     Quellcode ist öffentlich einsehbar. Während die Zinspolitik der EZB schwer
     zu durschschauen ist, ist die Geldpolitik von Bitcoin jederzeit berechenbar
@@ -273,7 +274,7 @@
   Stabiles Geld für Europa. Für alles andere gibt es den Euro.
 </h2>
 
-<h3 class="bg-partei-red text-white text-xl p-5">
+<h3 class="bg-partei-red text-white text-xl p-2 text-center">
   Wählt bitcoin - es ist sehr gut!
 </h3>
 
