@@ -47,10 +47,13 @@
   </p>
   <p>
     <a
+      target="_blank"
       href="https://www.sueddeutsche.de/wirtschaft/finanzkrise-kosten-deutschland-1.4126273"
       >2018</a
     >
-    litten viele noch unter den Folgen der Finanzkrise, die wir bis heute zahlen.
+    litten viele noch unter den Folgen der Finanzkrise von
+    <span class="font-bold">2008</span>. Wir zahlen bis heute noch bleibende
+    Schulden, die sich mit weiteren Krisen immer weiter aufsummieren.
     <br />Wie viele Finanzkrisen brauchen wir denn noch, bis sich wirklich was
     nachhaltig verändert?
   </p>
@@ -90,7 +93,9 @@
       <img src={moneysupply} alt="money supply of the euro" />
     </p>
     <aside class="text-gray-100 mb-4 text-right">
-      <a href="https://www.european-inflation-tracker.com/supply/"
+      <a
+        target="_blank"
+        href="https://www.european-inflation-tracker.com/supply/"
         >european-inflation-tracker.com</a
       >
     </aside>
@@ -106,7 +111,10 @@
         </div>
         <div class="flex justify-between items-center mt-2">
           <div class="text-gray-700">Inflationsrate Bitcoin:</div>
-          <a href="https://charts.woobull.com/bitcoin-inflation/">
+          <a
+            target="_blank"
+            href="https://charts.woobull.com/bitcoin-inflation/"
+          >
             <div class="text-yellow-600 font-black p-3">~1.8%</div>
           </a>
         </div>
@@ -171,7 +179,7 @@
     Stabile Währung wie in der Schweiz.
   </h2>
   <p>
-    Volt ist <a href="https://www.voltdeutschland.org/themen">
+    Volt ist <a target="_blank" href="https://www.voltdeutschland.org/themen">
       "überzeugt, dass gemeinsame Herausforderungen grenzübergreifende Lösungen
       brauchen. Wer es mit der Zukunft Europas ernst meint, muss europäisch
       denken und handeln."
