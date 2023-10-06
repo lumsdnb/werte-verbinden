@@ -232,7 +232,7 @@
   </p>
 </section>
 
-<section class="lg:px-60 bg-fdp-yellow p-10">
+<section class="lg:px-60 bg-fdp-yellow p-10 flex flex-col gap-3">
   <h2
     class="text-fdp-blue text-6xl scale-125 relative left-3 py-5 mb-7 font-roboto tracking-tight"
   >
@@ -247,50 +247,54 @@
       class="text-fdp-magenta font-bold"
       href="https://www.finextra.com/blogposting/19256/cryptocurrency-is-dead-long-live-central-bank-digital-currency"
       >tot</a
-    >
+    >,
     <a
       href="https://www.thetimes.co.uk/article/cryptocurrencies-are-a-fad-best-avoided-despite-paypal-accepting-bitcoin-fk8rdq0tx"
       class="text-fdp-magenta font-bold">wertlos</a
     >
-    und
+    oder
     <a
       href="https://nypost.com/2019/06/29/bitcoin-not-built-to-last-despite-recent-surge/"
       class="text-fdp-magenta font-bold">nicht zukunftstauglich</a
     >
     deklariert.
-    <br /> "Der Markt" sagt etwas anderes. <i>Seit 2009</i> beweist Bitcoin, dass
-    es auch ohne zentral gelenkte Geldpolitik geht. Wer auf kurzfristige Preisspekulationen
-    setzt, ohne der Gesellschaft einen Mehrwert zu bieten, fliegt raus. Und das komplett
-    ohne staatliche Eingriffe.
+  </p>
+  <p>
+    "Der Markt" sagt etwas anderes. <i>Seit 2009</i> beweist Bitcoin, dass es auch
+    ohne zentral gelenkte Geldpolitik geht.
+  </p>
+  <p>
+    Wer auf kurzfristige Preisspekulationen setzt, ohne der Gesellschaft einen
+    Mehrwert zu bieten, fliegt raus. Und das komplett ohne staatliche Eingriffe.
   </p>
 </section>
-<section class="lg:px-60 bg-linke-red py-2 flex flex-col">
+<section class="lg:px-60 bg-linke-red py-5 flex flex-col">
   <h2
-    class=" text-white scale-110 relative -left-2 text-right self-center font-inter text-5xl tracking-tighter p-5"
+    class=" text-white relative -left-2 text-right self-center font-inter text-5xl tracking-tighter p-5"
   >
     Zentralbanken enteignen!
   </h2>
 
-  <div class="bg-black text-white py-5 relative top-3 text-center">
+  <div class="bg-black text-white py-6 mb-1 text-center">
     <span class="mx-4 text-xl">Wer Geld verzockt wird nicht gerettet.</span>
   </div>
 
   <article class="m-2 mb-1">
-    <p class=" bg-white px-10 py-5">
+    <p class=" bg-white px-10 py-3 pt-6">
       Ich finde es schwierig, diese Aussage weniger radikal auszudrücken. Es
-      kann nicht sein, dass private Verluste weiterhin sozialisiert werden.Ich
-      hab keine Lust, an einer ewigen Wachstumspolitik festzuhalten. Wer Lust
-      auf Casino hat, soll das selbst bezahlen.
+      kann nicht sein, dass private Verluste weiterhin sozialisiert werden. Ich
+      hab keine Lust, an einer ewigen Wachstumspolitik festzuhalten. Wer ins
+      Casino will, soll das selbst bezahlen.
     </p>
-    <p class="bg-white px-10 py-5">
+    <p class="bg-white px-10 pb-3">
       Bitcoin selbst hat keine Bankenrettungen. Wer sich entscheidet, mit
-      Risikobehafteten Geschäften zu handeln, hat nichts zu melden wenn es doch
+      risikobehafteten Geschäften zu handeln, hat nichts zu melden wenn es doch
       nicht so gut läuft.
     </p>
-    <p class="bg-white px-10 py-5">
+    <p class="bg-white px-10 pb-3">
       Im Gegensatz dazu stehen staatliche Währungen wie der Euro - wer da Geld
       verzockt, muss nur die richtigen Leute kennen, und denen verkaufen, dass
-      das private Geschäft Systemrelevant ist.
+      das private Geschäft systemrelevant sei.
       <br /> Bei welcher Partei muss ich ein Kreuz machen, damit das aufhört?
     </p>
   </article>
