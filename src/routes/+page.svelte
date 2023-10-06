@@ -32,7 +32,7 @@
 </section> -->
 
 <section
-  class="text-white bg-cdu-darkblue m-0 p-10 pt-16 w-full flex-col items-start md:px-60"
+  class="text-white bg-cdu-darkblue m-0 p-10 pt-16 w-full flex flex-col items-center justify-center md:px-60"
 >
   <h2 class=" md:text-8xl text-4xl scale-110 pb-5 font-inter tracking-tight">
     DAMIT UNSERE WIRTSCHAFT <span class="text-cdu-mint">
@@ -59,15 +59,13 @@
   </p>
 </section>
 
-<section
-  class="lg:px-60 bg-afd-blue text-white p-2 max-w-full items-start font-barlow"
->
+<section class="lg:px-60 bg-afd-blue text-white p-2 max-w-full font-barlow">
   <h2
-    class="md:text-9xl text-7xl font-roboto scale-110 tracking-tight p-5 py-10 relative left-1"
+    class="md:text-9xl text-7xl font-roboto scale-110 tracking-tight p-5 py-10"
   >
     Raus aus <br />dem Euro!
   </h2>
-  <div class=" bg-white text-black p-3">
+  <div class=" bg-white text-black p-5">
     <p>
       Wir nutzen täglich den Euro, weil er als stabil gilt. Aber ist das
       wirklich so?
@@ -232,9 +230,9 @@
   </p>
 </section>
 
-<section class="lg:px-60 bg-fdp-yellow p-10 flex flex-col gap-3">
+<section class="lg:px-60 bg-fdp-yellow p-10 flex flex-col items-center gap-3">
   <h2
-    class="text-fdp-blue text-6xl scale-125 relative left-3 py-5 mb-7 font-roboto tracking-tight"
+    class="text-fdp-blue text-6xl scale-125 py-5 mb-7 font-roboto tracking-tight"
   >
     Das regelt <br />der
     <span
