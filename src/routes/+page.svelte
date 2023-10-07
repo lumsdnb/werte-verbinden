@@ -32,7 +32,7 @@
 </section> -->
 
 <section
-  class="text-white bg-cdu-darkblue m-0 p-10 pt-16 w-full flex flex-col items-center justify-center md:px-60"
+  class="text-white lg:px-60 bg-cdu-darkblue m-0 p-10 pt-16 w-full flex flex-col items-center justify-center md:px-60"
 >
   <h2 class=" md:text-8xl text-4xl scale-110 pb-5 font-inter tracking-tight">
     DAMIT UNSERE WIRTSCHAFT <span class="text-cdu-mint">
@@ -61,7 +61,7 @@
 
 <section class="lg:px-60 bg-afd-blue text-white p-2 max-w-full font-barlow">
   <h2
-    class="md:text-9xl text-7xl font-roboto scale-110 tracking-tight p-5 py-10"
+    class="md:text-9xl text-7xl font-roboto scale-110 lg:scale-125 lg:py-20 tracking-tight p-5 text-center py-10"
   >
     Raus aus <br />dem Euro!
   </h2>
@@ -173,7 +173,7 @@
 <section
   class="lg:px-60 bg-volt-violet p-10 text-white font-ubuntu flex flex-col items-center gap-3"
 >
-  <h2 class="text-5xl scale-125 m-5 font-ubuntubold p-3">
+  <h2 class="text-5xl lg:text-9xl lg:py-20 scale-125 m-5 font-ubuntubold p-3">
     Stabile Währung wie in der Schweiz.
   </h2>
   <p>
@@ -201,7 +201,7 @@
   class="lg:px-60 bg-green-tanne text-green-sand p-10 flex flex-col gap-3"
 >
   <h2
-    class="lg:text-9xl text-5xl scale-110 -rotate-3 md:p-5 sm:p-2 py-5 font-roboto tracking-tighter"
+    class="lg:text-9xl text-5xl scale-110 md:p-5 sm:p-2 py-5 font-roboto tracking-tighter"
   >
     Energiewende und Wirtschaft vereinen.
   </h2>
@@ -232,7 +232,7 @@
 
 <section class="lg:px-60 bg-fdp-yellow p-10 flex flex-col items-center gap-3">
   <h2
-    class="text-fdp-blue text-6xl scale-125 py-5 mb-7 font-roboto tracking-tight"
+    class="text-fdp-blue text-6xl lg:text-9xl lg:py-20 scale-125 py-5 mb-7 font-roboto tracking-tight"
   >
     Das regelt <br />der
     <span
@@ -268,13 +268,15 @@
 </section>
 <section class="lg:px-60 bg-linke-red py-5 flex flex-col">
   <h2
-    class=" text-white relative -left-2 text-right self-center font-inter text-5xl tracking-tighter p-5"
+    class=" text-white relative -left-2 text-right self-center font-inter text-5xl lg:text-9xl tracking-tighter p-5"
   >
     Zentralbanken enteignen!
   </h2>
 
   <div class="bg-black text-white py-6 mb-1 text-center">
-    <span class="mx-4 text-xl">Wer Geld verzockt wird nicht gerettet.</span>
+    <span class="mx-4 text-xl lg:text-3xl"
+      >Wer Geld verzockt wird nicht gerettet.</span
+    >
   </div>
 
   <article class="m-2 mb-1">
@@ -300,7 +302,7 @@
 
 <section class="lg:px-60 bg-pirate-orange pb-10 px-3">
   <h2
-    class=" text-white bg-volt-violet text-4xl rotate-3 scale-110 max-w-fit p-5 font-politics text-center relative top-10"
+    class=" text-white bg-black text-4xl lg:text-9xl scale-110 max-w-fit p-5 font-politics text-center relative top-10"
   >
     TRANSPARENTER ALS POLITIK
   </h2>
@@ -311,14 +313,14 @@
     und kann von jedem Teilnehmer des Netzwerks überprüft werden.
   </p>
 </section>
-<section class="m-2 mb-10 p-0 border-black border-4">
+<section class="lg:mx-60 m-2 mb-10 p-0 border-black border-4">
   <div class="m-2 px-3 mb-0 py-1">
     <h2 class="font-partei text-black text-6xl py-4 pb-0">
       Stabiles Geld für Europa. Für alles andere gibt es den Euro.
     </h2>
   </div>
   <h3
-    class="bg-partei-red px-0 scale-110 relative top-1 m-0 text-white text-xl p-4 text-center"
+    class="bg-partei-red px-0 scale-110 lg:scale-105 relative top-1 m-0 text-white text-xl p-4 text-center"
   >
     Wählt Bitcoin - es ist sehr gut!
   </h3>
