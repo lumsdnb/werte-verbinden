@@ -325,5 +325,3 @@
     Wählt Bitcoin - es ist sehr gut!
   </h3>
 </section>
-
-<RainbowLine />
