@@ -1,10 +1,11 @@
-<script>
+<script lang="ts">
+  import { onMount } from 'svelte';
   import { Discussions } from 'sveltegram';
+
+  let isVisible = true;
 </script>
 
 <section>
-  <h2 class="md:text-9xl text-5xl font-partei scale-110 text-center p-10 py-10">
-    Noch Fragen?
-  </h2>
+  <div class="bg-white w-full relative top-10 h-10" />
   <Discussions link="https://t.me/werteverbinden/3" />
 </section>
