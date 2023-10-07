@@ -4,7 +4,7 @@
 
 <RainbowLine />
 <footer
-  class="shadow-inner flex flex-col justify-center items-center gap-2 py-10 px-4 text-center bg-lums-blue text-gray-300 text-sm"
+  class="w-screen shadow-inner flex flex-col justify-center items-center gap-2 py-10 px-4 text-center bg-lums-blue text-gray-300 text-sm"
 >
   <span class="max-w-2xl text-gray-400"
     >Bevor sich jemand beschwert: dieses Projekt hat keine Assoziationen mit

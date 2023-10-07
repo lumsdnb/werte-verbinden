@@ -14,25 +14,8 @@
   <!-- 8 equally sized boxes -->
 </header>
 
-<!-- <section class="m-5 max-w-2xl flex flex-col items-center">
-  <blockquote class="gap-5text-xl italic font-se m ibold text-gray-900 m-10">
-    <svg
-      class="w-8 h-8 text-gray -400 dark:text-gray-600 m-4"
-      aria-hidden="true"
-      xmlns="http://www.w3.org/2000/svg"
-      fill="currentColor"
-      viewBox="0 0 18 14"
-    >
-      <path
-        d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"
-      />
-    </svg>
-    bla
-  </blockquote>
-</section> -->
-
 <section
-  class="text-white lg:px-60 bg-cdu-darkblue m-0 p-10 pt-16 w-full flex flex-col items-center justify-center md:px-60"
+  class="text-white lg:px-60 bg-cdu-darkblue m-0 p-10 pt-16 w-full flex flex-col items-center justify-center md:px-20"
 >
   <h2 class=" md:text-8xl text-4xl scale-110 pb-5 font-inter tracking-tight">
     DAMIT UNSERE WIRTSCHAFT <span class="text-cdu-mint">
@@ -40,57 +23,68 @@
       NICHT DIE KRISE KRIEGT.</span
     >
   </h2>
-  <p>
-    Über Geld und wo es herkommt redet man nicht. In politischen Debatten und
-    Wahlprogrammen dreht es sich in erster Linie darum, was man damit machen
-    will. <br />
-  </p>
-  <p>
-    <a
-      target="_blank"
-      href="https://www.sueddeutsche.de/wirtschaft/finanzkrise-kosten-deutschland-1.4126273"
-      >2018</a
-    >
-    litten viele noch unter den Folgen der Finanzkrise von
-    <span class="font-bold">2008</span>. Wir zahlen bis heute noch bleibende
-    Schulden, die sich mit weiteren Krisen immer weiter aufsummieren.
-    <br />Wie viele Finanzkrisen brauchen wir denn noch, bis sich wirklich was
-    nachhaltig verändert?
-  </p>
+  <div
+    class="md:min-w-fit flex flex-col md:flex-row md:items-center gap-y-5 gap-x-10 pt-10 md:minmin-w-fit md:w-10/12 md:py-20"
+  >
+    <p class="md:w-1/2 md:max-w-xs">
+      Über Geld und wo es herkommt redet man nicht. In politischen Debatten und
+      Wahlprogrammen dreht es sich in erster Linie darum, was man damit machen
+      will. <br />
+    </p>
+    <p class="md:w-1/2 md:max-w-xs">
+      <a
+        target="_blank"
+        href="https://www.sueddeutsche.de/wirtschaft/finanzkrise-kosten-deutschland-1.4126273"
+        >2018</a
+      >
+      litten viele noch unter den Folgen der Finanzkrise von
+      <span class="font-bold">2008</span>. Wir zahlen bis heute noch bleibende
+      Schulden, die sich mit weiteren Krisen immer weiter aufsummieren.
+    </p>
+
+    <p class="md:w-1/2 md:max-w-xs">
+      Wie viele Finanzkrisen brauchen wir denn noch, bis sich wirklich was
+      nachhaltig verändert?
+    </p>
+  </div>
 </section>
 
-<section class="lg:px-60 bg-afd-blue text-white p-2 max-w-full font-barlow">
+<section
+  class="lg:px-60 flex flex-col items-center bg-afd-blue text-white p-2 max-w-full font-barlow"
+>
   <h2
     class="md:text-9xl text-7xl font-roboto scale-110 lg:scale-125 lg:py-20 tracking-tight p-5 text-center py-10"
   >
     Raus aus <br />dem Euro!
   </h2>
-  <div class=" bg-white text-black p-5">
-    <p>
+  <div class=" bg-white text-black md:p-16 mx-2">
+    <p class="px-5">
       Wir nutzen täglich den Euro, weil er als stabil gilt. Aber ist das
       wirklich so?
     </p>
     <div class="py-3 mb-4">
       <img src={purchasingpower} alt="money supply of the euro" />
-      <aside class="italic text-gray-100 text-right">
+      <aside class="px-5 italic text-gray-100 text-right">
         <a
           href="https://www.statista.com/statistics/1055948/value-euro-since-2000/"
           >Statista</a
         >
       </aside>
     </div>
-    <p>
-      Laut <a
-        href="https://data.ecb.europa.eu/publications/money-credit-and-banking/3031796"
-        >offiziellen Statistiken</a
-      > sieht die Realität anders aus.
-    </p>
-    <p>
-      Der Euro setzt sich aus mehreren Geldformen M1-M4 zusammen. Jede davon
-      wächst immer weiter, egal ob Krise oder nicht.
-      <img src={moneysupply} alt="money supply of the euro" />
-    </p>
-    <aside class="text-gray-100 mb-4 text-right">
+    <div class="md:px-20">
+      <p class="px-5">
+        Laut <a
+          href="https://data.ecb.europa.eu/publications/money-credit-and-banking/3031796"
+          >offiziellen Daten</a
+        > sieht die Realität anders aus.
+      </p>
+      <p class="px-5">
+        Der Euro setzt sich aus mehreren Geldformen M1-M4 zusammen. Und jede
+        davon wächst immer weiter, egal ob Krise oder nicht.
+      </p>
+    </div>
+    <img src={moneysupply} alt="money supply of the euro" />
+    <aside class="px-5 text-gray-100 mb-4 text-right">
       <a
         target="_blank"
         href="https://www.european-inflation-tracker.com/supply/"
@@ -98,139 +92,161 @@
       >
     </aside>
 
-    <section class="text-2xl w-2xl flex sm:items-center md:items-end">
-      <div class="bg-blue-200 m-3 p-4 rounded-lg w-80">
-        <div class="flex justify-between items-center">
-          <div class="text-gray-700">Inflationsrate Euro:</div>
-          <a
-            href="https://www.statista.com/statistics/225698/monthly-inflation-rate-in-eu-countries/"
-            ><div class="text-green-600 font-black p-3">5.9%</div></a
-          >
+    <div class="md:flex md:gap-10 md:my-16">
+      <section class="text-3xl w-2xl flex sm:items-center md:items-end">
+        <div
+          class="bg-blue-50 shadow-inner drop-shadow-sm inset-4 m-3 p-4 rounded-lg w-80"
+        >
+          <div class="flex justify-between items-center">
+            <div class="text-gray-700">Inflationsrate Euro:</div>
+            <a
+              href="https://www.statista.com/statistics/225698/monthly-inflation-rate-in-eu-countries/"
+              ><div class="text-linke-red font-black p-3">6.4%</div></a
+            >
+          </div>
+          <div class="flex justify-between items-center mt-2">
+            <div class="text-gray-700">Inflationsrate Bitcoin:</div>
+            <a
+              target="_blank"
+              href="https://charts.woobull.com/bitcoin-inflation/"
+            >
+              <div class="text-pirate-orange font-black p-3">~1.8%</div>
+            </a>
+          </div>
         </div>
-        <div class="flex justify-between items-center mt-2">
-          <div class="text-gray-700">Inflationsrate Bitcoin:</div>
-          <a
-            target="_blank"
-            href="https://charts.woobull.com/bitcoin-inflation/"
-          >
-            <div class="text-yellow-600 font-black p-3">~1.8%</div>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <p>
-      Seit den Nachkriegsjahren gab es keine so hohe Inflation wie <a
-        class="font-bold"
-        href="https://de.statista.com/themen/112/inflation/"
-        >heute
-      </a>. <br />
-      Selbst das offizielle Inflationsziel von
-      <a
-        class="text-xl font-bold"
-        href="https://www.ecb.europa.eu/home/search/review/html/price-stability-objective.de.html"
-        >2%
-      </a>pro Jahr wirkt verheerend - 1000 Euro auf dem Sparkonto sind damit
-      nach etwa 5 Jahren nur noch ungefähr 905 Euro wert.
-    </p>
-    <p>
-      Viel mehr braucht es nicht um die Wichtigkeit von Bitcoin zu verstehen.
-      Denn was dieser Zwang zu investieren mit jedem Bereich unserer
+      </section>
+      <p class="px-5">
+        Seit den Nachkriegsjahren gab es keine so hohe Inflation wie <a
+          class="font-bold"
+          href="https://de.statista.com/themen/112/inflation/"
+          >heute
+        </a>. <br />
+        Selbst das offizielle Inflationsziel von
+        <a
+          class="text-xl font-bold"
+          href="https://www.ecb.europa.eu/home/search/review/html/price-stability-objective.de.html"
+          >2%
+        </a>pro Jahr wirkt verheerend - 1000 Euro auf dem Sparkonto sind damit
+        nach etwa 5 Jahren nur noch ungefähr 905 Euro wert.
+      </p>
+    </div>
+    <p class="px-5 md:m-5 mb-10">
+      Viel mehr braucht es gar nicht um die Wichtigkeit von Bitcoin zu
+      verstehen. Denn was dieser Zwang zu investieren mit jedem Bereich unserer
       Gesellschaft macht, ist unvorstellbar und kann von keiner Statistik
       quantifiziert werden.
     </p>
 
-    <h3 class="text-4xl mt-4">Warum ist das so?</h3>
-    <p>
-      Laut eigenen Aussagen der EZB ist eine gewisse Inflation gewollt. Zu hohe
-      Inflation behindert das Sparen, zu niedrige hält Menschen davon ab, ihr
-      Geld auszugeben.
-    </p>
+    <div class="px-5">
+      <h3 class="text-4xl py-3 mt-4">Was macht das mit uns?</h3>
+      <ul class="list-disc pl-5 md:pl-10">
+        <li>
+          Menschen werden gezwungen, ihr Geld zu investieren. Wer es sich
+          leisten kann, überlässt das dem Finanzberater. Der Rest muss das halt
+          nach der Arbeit machen.
+        </li>
+        <li>Immobilien werden zu Wertanlagen, statt Wohnobjekten.</li>
+        <li>
+          Statt sich gründlich Gedanken zu nachhaltigen Investitionen zu machen,
+          werden spekulative Geschäfte lukrativer. Warum warten, wenn der
+          Wertverlust des eigenen Geldes vorprogrammiert ist?
+        </li>
+      </ul>
+    </div>
 
-    <p>
-      Würdest du mit 0% monetärer Inflation plötzlich aufhören, dein ganzes Geld
-      auszugeben? Oder würdest du dir mehr Gedanken darüber machen, wirklich
-      sinnvolle Investitionen in deine Zukunft zu tätigen, die mehr als nur Geld
-      wert sind?
-    </p>
-
-    <h3 class="text-4xl py-3 mt-4">Was macht das mit uns?</h3>
-    <ul class="list-disc pl-5">
-      <li>
-        Menschen werden gezwungen, ihr Geld zu investieren. Wer es sich leisten
-        kann, überlässt das dem Finanzberater. Der Rest muss das halt nach der
-        Arbeit machen.
-      </li>
-      <li>Immobilien werden zu Wertanlagen, statt Wohnobjekten.</li>
-      <li>
-        Statt sich gründlich Gedanken zu nachhaltigen Investitionen zu machen,
-        werden spekulative Geschäfte lukrativer. Warum warten, wenn der
-        Wertverlust des eigenen Geldes vorprogrammiert ist?
-      </li>
-    </ul>
+    <section class="px-5">
+      <h3 class="text-4xl mt-8">Warum ist das so?</h3>
+      <div
+        class="flex flex-col gap-5 md:flex-row
+      md:gap-10 py-5 md:items-center"
+      >
+        <p class="md:w-1/2">
+          Laut eigenen Aussagen der EZB ist eine gewisse Inflation gewollt. Zu
+          hohe Inflation entwertet das Ersparte, zu niedrige hält Menschen davon
+          ab, ihr Geld auszugeben. <a
+            href="https://www.ecb.europa.eu/ecb/tasks/monpol/html/index.de.html"
+            >Schließlich muss ja die Wirtschaft angekurbelt werden!</a
+          >
+        </p>
+        <p class="md:w-1/2">
+          Würdest du mit 0% monetärer Inflation plötzlich aufhören, dein ganzes
+          Geld auszugeben? Oder würdest du dir mehr Gedanken darüber machen,
+          wirklich sinnvolle Investitionen in deine Zukunft zu tätigen, die mehr
+          als nur Geld wert sind?
+        </p>
+      </div>
+    </section>
   </div>
 </section>
 <section
-  class="lg:px-60 bg-volt-violet p-10 text-white font-ubuntu flex flex-col items-center gap-3"
+  class="lg:px-20 bg-volt-violet p-10 text-white font-ubuntu flex flex-col items-center gap-3"
 >
-  <h2 class="text-5xl lg:text-9xl lg:py-20 scale-125 m-5 font-ubuntubold p-3">
+  <h2
+    class="text-5xl lg:text-8xl max-w-lg lg:py-20 scale-125 m-5 font-ubuntubold p-3 tracking-tight"
+  >
     Stabile Währung wie in der Schweiz.
   </h2>
-  <p>
-    Volt ist <a target="_blank" href="https://www.voltdeutschland.org/themen">
-      "überzeugt, dass gemeinsame Herausforderungen grenzübergreifende Lösungen
-      brauchen. Wer es mit der Zukunft Europas ernst meint, muss europäisch
-      denken und handeln."
-    </a>
-  </p>
-  <p>
-    Ich sehe das ähnlich und gehe noch einen Schritt weiter: wer es mit der
-    Zukunft des Planeten ernst meint, muss global denken und handeln. Ein
-    Geldsystem, was eine Minderheit nach Belieben steuern kann, sehe ich da
-    nicht.
-  </p>
-  <p>
-    Bitcoin wird von seinen Teilnehmern kontrolliert. Jeder Teilnehmer des
-    Netzwerks kann selbst prüfen, ob alle sich an die Regeln halten. Bitcoin
-    macht nicht an irgendwelchen Ländergrenzen halt. Es interessiert sich auch
-    nicht für deine Herkunft, oder deine Hautfarbe.
-  </p>
+  <div class="px-0 md:px-10 md:mb-10 flex flex-col gap-5 lg:flex-row">
+    <p>
+      <a target="_blank" href="https://www.voltdeutschland.org/themen"
+        >Volt ist
+      </a>
+      "überzeugt, dass gemeinsame Herausforderungen grenzübergreifende Lösungen brauchen.
+      Wer es mit der Zukunft Europas ernst meint, muss europäisch denken und handeln."
+    </p>
+    <p>
+      Ich sehe das ähnlich und gehe noch einen Schritt weiter: wer es mit der
+      Zukunft des Planeten ernst meint, muss global denken und handeln. Ein
+      Geldsystem, was eine Minderheit nach Belieben steuern kann, sehe ich da
+      nicht.
+    </p>
+    <p>
+      Bitcoin wird von seinen Teilnehmern kontrolliert. Jeder Teilnehmer des
+      Netzwerks kann selbst prüfen, ob alle sich an die Regeln halten. Bitcoin
+      macht nicht an irgendwelchen Ländergrenzen halt. Es interessiert sich auch
+      nicht für deine Herkunft, oder deine Hautfarbe.
+    </p>
+  </div>
 </section>
 
 <section
-  class="lg:px-60 bg-green-tanne text-green-sand p-10 flex flex-col gap-3"
+  class="lg:px-20 bg-green-tanne text-green-sand p-10 flex flex-col items-center gap-3"
 >
   <h2
-    class="lg:text-9xl text-5xl scale-110 md:p-5 sm:p-2 py-5 font-roboto tracking-tighter"
+    class="lg:text-7xl md:max-w-xl text-left text-5xl scale-110 md:scale-125 md:p-5 sm:p-2 py-5 lg:py-10 font-roboto tracking-tighter"
   >
     Energiewende und Wirtschaft vereinen.
   </h2>
   <span class="relative left-44 -top-80 -z-10" />
   <!-- <BitcoinSvg fillColor="#fff17a" backgroundColor="#005437" /> -->
-  <p>
-    Bitcoin wird in dieser Hinsicht oft kritisiert, da das System sehr viel
-    Strom verbraucht. Und obwohl sich <a
-      href="https://www.weforum.org/agenda/2017/12/bitcoin-consume-more-power-than-world-2020"
-      >Prognosen zum Verbrauch</a
-    > immer wieder als falsch herausstellen, besteht weiterhin Skepsis.
-  </p>
-  <p>
-    Faktisch sieht das anders aus: das Bitcoin Netzwerk bezieht einen
-    <a
-      href="https://www.forbes.com/sites/seansteinsmith/2022/06/05/crypto-power-usage-is-helping-to-spur-renewable-energy-investments/"
-      >beachtlichen Anteil</a
-    > seines Stromverbrauchst aus erneuerbaren Energien, und fördert deren Ausbau
-    ohne staatliche Subventionen.
-  </p>
-  <p>
-    Mit Mining ist ein globaler Markt entstanden, der sich den günstigsten Preis
-    für Energie sucht. Ein Kohlekraftwerk ist irgendwann leer. Eine Solarzelle
-    wird einmal gebaut und generiert ab dann so lange Strom, wie die Sonne
-    scheint.
-  </p>
+  <div class="lg:flex gap-10 lg:pb-20">
+    <p>
+      Bitcoin wird in dieser Hinsicht oft kritisiert, da das System sehr viel
+      Strom verbraucht. Und obwohl sich <a
+        href="https://www.weforum.org/agenda/2017/12/bitcoin-consume-more-power-than-world-2020"
+        >Prognosen zum Verbrauch</a
+      > immer wieder als falsch herausstellen, besteht weiterhin Skepsis.
+    </p>
+    <p>
+      Faktisch sieht es anders aus: das Bitcoin Netzwerk bezieht einen
+      <a
+        href="https://www.forbes.com/sites/seansteinsmith/2022/06/05/crypto-power-usage-is-helping-to-spur-renewable-energy-investments/"
+        >beachtlichen Anteil</a
+      > seines Stromverbrauchst aus erneuerbaren Energien, und fördert deren Ausbau
+      ohne staatliche Subventionen.
+    </p>
+    <p>
+      Mit Mining ist ein globaler Markt entstanden, der sich den günstigsten
+      Preis für Energie sucht. Ein Kohlekraftwerk ist irgendwann leer. Eine
+      Solarzelle wird einmal gebaut und generiert ab dann so lange Strom, wie
+      die Sonne scheint.
+    </p>
+  </div>
 </section>
 
-<section class="lg:px-60 bg-fdp-yellow p-10 flex flex-col items-center gap-3">
+<section
+  class="lg:px-20 bg-fdp-yellow p-10 flex flex-col items-center gap-3 lg:pb-20"
+>
   <h2
     class="text-fdp-blue text-6xl lg:text-9xl lg:py-20 scale-125 py-5 mb-7 font-roboto tracking-tight"
   >
@@ -240,33 +256,36 @@
       >Markt.</span
     >
   </h2>
-  <p>
-    Bitcoin wird immer wieder als <a
-      class="text-fdp-magenta font-bold"
-      href="https://www.finextra.com/blogposting/19256/cryptocurrency-is-dead-long-live-central-bank-digital-currency"
-      >tot</a
-    >,
-    <a
-      href="https://www.thetimes.co.uk/article/cryptocurrencies-are-a-fad-best-avoided-despite-paypal-accepting-bitcoin-fk8rdq0tx"
-      class="text-fdp-magenta font-bold">wertlos</a
-    >
-    oder
-    <a
-      href="https://nypost.com/2019/06/29/bitcoin-not-built-to-last-despite-recent-surge/"
-      class="text-fdp-magenta font-bold">nicht zukunftstauglich</a
-    >
-    deklariert.
-  </p>
-  <p>
-    "Der Markt" sagt etwas anderes. <i>Seit 2009</i> beweist Bitcoin, dass es auch
-    ohne zentral gelenkte Geldpolitik geht.
-  </p>
-  <p>
-    Wer auf kurzfristige Preisspekulationen setzt, ohne der Gesellschaft einen
-    Mehrwert zu bieten, fliegt raus. Und das komplett ohne staatliche Eingriffe.
-  </p>
+  <div class="md:flex gap-10">
+    <p class="md:w-10/12">
+      Bitcoin wird immer wieder als <a
+        class="text-fdp-magenta font-bold"
+        href="https://www.finextra.com/blogposting/19256/cryptocurrency-is-dead-long-live-central-bank-digital-currency"
+        >tot</a
+      >,
+      <a
+        href="https://www.thetimes.co.uk/article/cryptocurrencies-are-a-fad-best-avoided-despite-paypal-accepting-bitcoin-fk8rdq0tx"
+        class="text-fdp-magenta font-bold">wertlos</a
+      >
+      oder
+      <a
+        href="https://nypost.com/2019/06/29/bitcoin-not-built-to-last-despite-recent-surge/"
+        class="text-fdp-magenta font-bold">nicht zukunftstauglich</a
+      >
+      deklariert.
+    </p>
+    <p>
+      "Der Markt" sagt etwas anderes. <i>Seit 2009</i> beweist Bitcoin, dass es auch
+      ohne zentral gelenkte Geldpolitik geht.
+    </p>
+    <p>
+      Wer auf kurzfristige Preisspekulationen setzt, ohne der Gesellschaft einen
+      Mehrwert zu bieten, fliegt raus. Und das komplett ohne staatliche
+      Eingriffe.
+    </p>
+  </div>
 </section>
-<section class="lg:px-60 bg-linke-red py-5 flex flex-col">
+<section class="lg:px-20 bg-linke-red py-5 flex flex-col">
   <h2
     class=" text-white relative -left-2 text-right self-center font-inter text-5xl lg:text-9xl tracking-tighter p-5"
   >
@@ -300,22 +319,34 @@
   </article>
 </section>
 
-<section class="lg:px-60 bg-pirate-orange pb-10 px-3">
+<section class="md:p-20 bg-pirate-orange pb-10 px-3 flex flex-col items-center">
   <h2
-    class=" text-white bg-black text-4xl lg:text-9xl scale-110 max-w-fit p-5 font-politics text-center relative top-10"
+    class=" text-white mb-5 bg-black text-4xl md:text-7xl scale-110 max-w-fit p-3 font-politics text-center"
   >
     TRANSPARENTER ALS POLITIK
   </h2>
-  <p class="p-10 pt-20">
-    Alle Transaktionen auf der Bitcoin-Blockchain sind nachverfolgbar, der
-    Quellcode ist öffentlich einsehbar. Während die Zinspolitik der EZB schwer
-    zu durschschauen ist, ist die Geldpolitik von Bitcoin jederzeit berechenbar
-    und kann von jedem Teilnehmer des Netzwerks überprüft werden.
-  </p>
+  <div class="flex flex-col items-center justify-center gap-7 p-5">
+    <p>
+      Alle Transaktionen auf der Bitcoin-Blockchain sind nachverfolgbar, der
+      Quellcode ist <a
+        class="text-volt-violet"
+        href="https://github.com/bitcoin/bitcoin/blob/d2b8c5e1234cdaff84bd1f60aea598d219cdac5e/src/consensus/amount.h#L26"
+        >öffentlich einsehbar</a
+      >.
+    </p>
+    <p>
+      Die Regeln des Geldsystems der EZB sind schwer zu durschschauen. Die von
+      Bitcoin sind <a
+        class="text-volt-violet"
+        href="https://bitcoin.stackexchange.com/questions/48085/how-many-bitcoins-are-there-currently-in-circulation/48087#48087"
+        >jederzeit berechenbar</a
+      >.
+    </p>
+  </div>
 </section>
-<section class="lg:mx-60 m-2 mb-10 p-0 border-black border-4">
+<section class="flex flex-col lg:mx-20 md:w-96 m-2 p-0 border-black border-4">
   <div class="m-2 px-3 mb-0 py-1">
-    <h2 class="font-partei text-black text-6xl py-4 pb-0">
+    <h2 class="font-partei mb-10 text-black text-6xl py-4 pb-0">
       Stabiles Geld für Europa. Für alles andere gibt es den Euro.
     </h2>
   </div>

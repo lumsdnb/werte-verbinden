@@ -6,8 +6,10 @@
 </script>
 
 <svelte:head><title>Werte verbinden</title></svelte:head>
-<main class="m-0 p-0 text-lg lg:text-xl w-full flex flex-col justify-center">
-  <RainbowLine />
+<RainbowLine />
+<main
+  class=" m-0 p-0 text-lg lg:text-xl w-full flex items-center flex-col justify-center"
+>
   <slot />
 
   <CommentBox />
