@@ -2,7 +2,7 @@
   import '../app.css';
   import Footer from '$lib/assets/Footer.svelte';
   import RainbowLine from '$lib/RainbowLine.svelte';
-  import CommentBox from '$lib/CommentBox.svelte';
+  // import CommentBox from '$lib/CommentBox.svelte';
   import ContactForm from '$lib/ContactForm.svelte';
 </script>
 
