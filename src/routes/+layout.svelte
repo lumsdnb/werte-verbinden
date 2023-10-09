@@ -3,6 +3,7 @@
   import Footer from '$lib/assets/Footer.svelte';
   import RainbowLine from '$lib/RainbowLine.svelte';
   import CommentBox from '$lib/CommentBox.svelte';
+  import ContactForm from '$lib/ContactForm.svelte';
 </script>
 
 <svelte:head><title>Werte verbinden</title></svelte:head>
@@ -12,8 +13,8 @@
 >
   <slot />
 
-  <CommentBox />
-
+  <!-- <CommentBox /> -->
+  <ContactForm />
   <Footer />
 </main>
 
