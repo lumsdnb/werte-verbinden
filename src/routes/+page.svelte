@@ -11,7 +11,6 @@
   <h1 class="invisible absolute top-0 left-0">
     Werte verbinden - das Thema was alle betrifft, aber niemand drüber redet.
   </h1>
-  <!-- 8 equally sized boxes -->
 </header>
 
 <section
@@ -115,22 +114,26 @@
           </div>
         </div>
       </section>
-      <p class="px-5">
-        Seit den Nachkriegsjahren gab es keine so hohe Inflation wie <a
-          class="font-bold"
-          href="https://de.statista.com/themen/112/inflation/"
-          >heute
-        </a>. <br />
-        Selbst das offizielle Inflationsziel von
-        <a
-          class="text-xl font-bold"
-          href="https://www.ecb.europa.eu/home/search/review/html/price-stability-objective.de.html"
-          >2%
-        </a>pro Jahr wirkt verheerend - 1000 Euro auf dem Sparkonto sind damit
-        nach etwa 5 Jahren nur noch ungefähr 905 Euro wert.
-      </p>
+      <div class="flex flex-col gap-3">
+        <p class="px-5">
+          Seit den Nachkriegsjahren gab es keine so hohe Inflation wie <a
+            class="font-bold"
+            href="https://de.statista.com/themen/112/inflation/"
+            >heute
+          </a>.
+        </p>
+        <p class="px-5">
+          Selbst das offizielle Inflationsziel von
+          <a
+            class="text-xl font-bold"
+            href="https://www.ecb.europa.eu/home/search/review/html/price-stability-objective.de.html"
+            >2%
+          </a>pro Jahr wirkt verheerend - 1000 Euro auf dem Sparkonto sind damit
+          nach etwa 5 Jahren nur noch ungefähr 905 Euro wert.
+        </p>
+      </div>
     </div>
-    <p class="px-5 md:m-5 mb-10">
+    <p class="px-5 md:m-5 mb-10 mt-3">
       Viel mehr braucht es gar nicht um die Wichtigkeit von Bitcoin zu
       verstehen. Denn was dieser Zwang zu investieren mit jedem Bereich unserer
       Gesellschaft macht, ist unvorstellbar und kann von keiner Statistik
@@ -155,10 +158,10 @@
     </div>
 
     <section class="px-5">
-      <h3 class="text-4xl mt-8">Warum ist das so?</h3>
+      <h3 class="text-4xl mt-10 mb-3">Warum ist das so?</h3>
       <div
         class="flex flex-col gap-5 md:flex-row
-      md:gap-10 py-5 md:items-center"
+      md:gap-10 pb-5 md:items-center"
       >
         <p class="md:w-1/2">
           Laut eigenen Aussagen der EZB ist eine gewisse Inflation gewollt. Zu
@@ -287,19 +290,21 @@
 </section>
 <section class="lg:px-20 bg-linke-red py-5 flex flex-col">
   <h2
-    class=" text-white relative -left-2 text-right self-center font-inter text-5xl lg:text-9xl tracking-tighter p-5"
+    class=" text-white relative -left-2 text-right scale-110 self-center font-inter text-5xl lg:text-9xl tracking-tighter p-10"
   >
     Zentralbanken enteignen!
   </h2>
 
-  <div class="bg-black text-white py-6 mb-1 text-center">
+  <div class="bg-black text-white py-6 mb-0 text-center">
     <span class="mx-4 text-xl lg:text-3xl"
       >Wer Geld verzockt wird nicht gerettet.</span
     >
   </div>
 
-  <article class="m-2 mb-1">
-    <p class=" bg-white px-10 py-3 pt-6">
+  <article
+    class="bg-white py-5 mt-0 m-2 mb-1 lg:flex justify-center items-center"
+  >
+    <p class="  px-10 py-3 pt-6">
       Ich finde es schwierig, diese Aussage weniger radikal auszudrücken. Es
       kann nicht sein, dass private Verluste weiterhin sozialisiert werden. Ich
       hab keine Lust, an einer ewigen Wachstumspolitik festzuhalten. Wer ins
@@ -319,7 +324,9 @@
   </article>
 </section>
 
-<section class="md:p-20 bg-pirate-orange pb-10 px-3 flex flex-col items-center">
+<section
+  class="md:p-20 w-full bg-pirate-orange pb-10 px-3 flex flex-col items-center"
+>
   <h2
     class=" text-white mb-5 bg-black text-4xl md:text-7xl scale-110 max-w-fit p-3 font-politics text-center"
   >
@@ -350,6 +357,7 @@
       Stabiles Geld für Europa. Für alles andere gibt es den Euro.
     </h2>
   </div>
+
   <h3
     class="bg-partei-red px-0 scale-110 lg:scale-105 relative top-1 m-0 text-white text-xl p-4 text-center"
   >
