@@ -14,7 +14,7 @@
   <slot />
 
   <!-- <CommentBox /> -->
-  <ContactForm />
+  <!-- <ContactForm /> -->
   <Footer />
 </main>
 
