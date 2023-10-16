@@ -29,4 +29,5 @@
     >
   </span>
   <br />
+  <a href="mailto:lumsdnb@skiff.com">Kontakt</a>
 </footer>
