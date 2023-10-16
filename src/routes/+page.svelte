@@ -14,7 +14,7 @@
 </header>
 
 <section
-  class="text-white lg:px-60 bg-cdu-darkblue m-0 p-10 pt-16 w-full flex flex-col items-center justify-center md:px-20"
+  class="text-white min-h-screen lg:px-60 bg-cdu-darkblue m-0 p-10 pt-16 w-full flex flex-col items-center justify-center md:px-20"
 >
   <h2 class=" md:text-8xl text-4xl scale-110 pb-5 font-inter tracking-tight">
     DAMIT UNSERE WIRTSCHAFT <span class="text-cdu-mint">
@@ -49,7 +49,7 @@
 </section>
 
 <section
-  class="lg:px-60 flex flex-col items-center bg-afd-blue text-white p-2 max-w-full font-barlow"
+  class="lg:px-60 flex min-h-screen flex-col items-center bg-afd-blue text-white p-2 max-w-full font-barlow"
 >
   <h2
     class="md:text-9xl text-7xl font-roboto lg:scale-125 lg:py-20 tracking-tighter p-5 text-center py-10"
@@ -78,8 +78,8 @@
         > sieht die Realität anders aus.
       </p>
       <p class="px-5">
-        Der Euro setzt sich aus mehreren Geldformen M1-M4 zusammen. Und jede
-        davon wächst immer weiter, egal ob Krise oder nicht.
+        Der Euro setzt sich aus mehreren Geldformen M1-M4 zusammen. <br />
+        Jede davon wächst immer weiter, egal ob Krise oder nicht.
       </p>
     </div>
     <img src={moneysupply} alt="money supply of the euro" />
@@ -184,7 +184,7 @@
   </div>
 </section>
 <section
-  class="lg:px-20 bg-volt-violet p-10 text-white font-ubuntu flex flex-col items-center gap-3"
+  class="lg:px-20 min-h-screen bg-volt-violet p-10 text-white font-ubuntu flex flex-col items-center gap-3"
 >
   <h2
     class="text-5xl lg:text-8xl max-w-lg lg:py-20 scale-125 m-5 font-ubuntubold p-3 tracking-tight"
@@ -216,7 +216,7 @@
 </section>
 
 <section
-  class="lg:px-20 bg-green-tanne text-green-sand p-10 flex flex-col items-center gap-3"
+  class="lg:px-20 min-h-screen bg-green-tanne text-green-sand p-10 flex flex-col items-center justify-center gap-3"
 >
   <h2
     class="lg:text-7xl md:max-w-xl text-left text-5xl scale-110 md:scale-125 md:p-5 sm:p-2 py-5 lg:py-10 font-roboto tracking-tighter"
@@ -251,7 +251,7 @@
 </section>
 
 <section
-  class="lg:px-20 bg-fdp-yellow p-10 flex flex-col items-center gap-3 lg:pb-20"
+  class="lg:px-20 min-h-screen bg-fdp-yellow p-10 flex flex-col justify-center items-center gap-3 lg:pb-20"
 >
   <h2
     class="text-fdp-blue text-6xl lg:text-9xl lg:py-20 scale-125 py-5 mb-7 font-roboto tracking-tight"
@@ -294,7 +294,7 @@
     </p>
   </div>
 </section>
-<section class="lg:px-20 bg-linke-red py-5 flex flex-col">
+<section class="lg:px-20 min-h-screen bg-linke-red py-5 flex flex-col">
   <h2
     class=" text-white relative -left-2 text-right scale-100 self-center font-inter text-5xl lg:text-9xl tracking-tighter p-10"
   >
@@ -329,7 +329,7 @@
 </section>
 
 <section
-  class="md:p-20 w-full bg-pirate-orange pb-10 px-3 flex flex-col items-center"
+  class="md:p-20 w-full min-h-screen bg-pirate-orange pb-10 px-3 flex flex-col items-center justify-center"
 >
   <h2
     class=" text-white mb-5 bg-black text-4xl md:text-7xl scale-110 max-w-fit p-3 font-politics text-center"
