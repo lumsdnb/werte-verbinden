@@ -15,11 +15,19 @@
     Quellen evaluieren, bevor du finanzielle Entscheidungen triffst.</span
   >
   <br />
-  <span class="text-xs">
+  <span class="text-xs"
+    ><a
+      href="https://timecatcher.lnbits.de/market/stalls/FZ6Kt7HJTTAY6AHYGqHqSE"
+      >Sticker bestellen (Bitcoin only)</a
+    ></span
+  >
+  <span class="text-xs mt-3">
     © 2023 - Made with 🧡 by <a
       href="https://lums.io"
       target="_blank"
       class="text-lums-accent">lums</a
     >
   </span>
+  <br />
+  <a href="mailto:lumsdnb@skiff.com">Kontakt</a>
 </footer>

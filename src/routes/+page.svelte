@@ -14,7 +14,7 @@
 </header>
 
 <section
-  class="text-white lg:px-60 bg-cdu-darkblue m-0 p-10 pt-16 w-full flex flex-col items-center justify-center md:px-20"
+  class="text-white min-h-screen lg:px-60 bg-cdu-darkblue m-0 p-10 pt-16 w-full flex flex-col items-center justify-center md:px-20"
 >
   <h2 class=" md:text-8xl text-4xl scale-110 pb-5 font-inter tracking-tight">
     DAMIT UNSERE WIRTSCHAFT <span class="text-cdu-mint">
@@ -52,7 +52,7 @@
   class="lg:px-60 flex flex-col items-center bg-afd-blue text-white p-2 max-w-full font-barlow"
 >
   <h2
-    class="md:text-9xl text-7xl font-roboto scale-110 lg:scale-125 lg:py-20 tracking-tight p-5 text-center py-10"
+    class="md:text-9xl text-7xl font-roboto lg:scale-125 lg:py-20 tracking-tighter p-5 text-center py-10"
   >
     Raus aus <br />dem Euro!
   </h2>
@@ -78,8 +78,8 @@
         > sieht die Realität anders aus.
       </p>
       <p class="px-5">
-        Der Euro setzt sich aus mehreren Geldformen M1-M4 zusammen. Und jede
-        davon wächst immer weiter, egal ob Krise oder nicht.
+        Der Euro setzt sich aus mehreren Geldformen M1-M4 zusammen. <br />
+        Jede davon wächst immer weiter, egal ob Krise oder nicht.
       </p>
     </div>
     <img src={moneysupply} alt="money supply of the euro" />
@@ -128,8 +128,10 @@
             class="text-xl font-bold"
             href="https://www.ecb.europa.eu/home/search/review/html/price-stability-objective.de.html"
             >2%
-          </a>pro Jahr wirkt verheerend - 1000 Euro auf dem Sparkonto sind damit
-          nach etwa 5 Jahren nur noch ungefähr 905 Euro wert.
+          </a>pro Jahr wirkt verheerend -
+          <span class="text-green-tanne saturate-50 font-bold">1000</span> Euro
+          auf dem Sparkonto sind damit nach etwa 5 Jahren nur noch ungefähr
+          <span class="text-cdu-red font-bold">905</span> Euro wert.
         </p>
       </div>
     </div>
@@ -204,16 +206,16 @@
       nicht.
     </p>
     <p>
-      Bitcoin wird von seinen Teilnehmern kontrolliert. Jeder Teilnehmer des
-      Netzwerks kann selbst prüfen, ob alle sich an die Regeln halten. Bitcoin
-      macht nicht an irgendwelchen Ländergrenzen halt. Es interessiert sich auch
-      nicht für deine Herkunft, oder deine Hautfarbe.
+      Im Gegensatz zum Euro wird Bitcoin von seinen Teilnehmern kontrolliert.
+      Jeder kann selbst prüfen, ob sich alle an die Regeln halten. Bitcoin macht
+      nicht an irgendwelchen Ländergrenzen halt. Es interessiert sich auch nicht
+      für deine Herkunft, oder deine Hautfarbe.
     </p>
   </div>
 </section>
 
 <section
-  class="lg:px-20 bg-green-tanne text-green-sand p-10 flex flex-col items-center gap-3"
+  class="lg:px-20 bg-green-tanne text-green-sand p-10 flex flex-col items-center justify-center gap-3"
 >
   <h2
     class="lg:text-7xl md:max-w-xl text-left text-5xl scale-110 md:scale-125 md:p-5 sm:p-2 py-5 lg:py-10 font-roboto tracking-tighter"
@@ -248,7 +250,7 @@
 </section>
 
 <section
-  class="lg:px-20 bg-fdp-yellow p-10 flex flex-col items-center gap-3 lg:pb-20"
+  class="lg:px-20 bg-fdp-yellow p-10 flex flex-col justify-center items-center gap-3 lg:pb-20"
 >
   <h2
     class="text-fdp-blue text-6xl lg:text-9xl lg:py-20 scale-125 py-5 mb-7 font-roboto tracking-tight"
@@ -282,40 +284,43 @@
       ohne zentral gelenkte Geldpolitik geht.
     </p>
     <p>
-      Wer auf kurzfristige Preisspekulationen setzt, ohne der Gesellschaft einen
-      Mehrwert zu bieten, fliegt raus. Und das komplett ohne staatliche
-      Eingriffe.
+      Wer auf kurzfristige Preisspekulationen setzt, und der Gesellschaft keinen
+      Mehrwert bietet, <a
+        href="https://t.me/s/rektplebs"
+        class="text-fdp-magenta font-bold"
+        target="_blank">fliegt raus</a
+      >. Und das komplett ohne staatliche Eingriffe.
     </p>
   </div>
 </section>
 <section class="lg:px-20 bg-linke-red py-5 flex flex-col">
   <h2
-    class=" text-white relative -left-2 text-right scale-110 self-center font-inter text-5xl lg:text-9xl tracking-tighter p-10"
+    class=" text-white relative -left-2 text-right scale-100 self-center font-inter text-5xl lg:text-9xl tracking-tighter p-10"
   >
     Zentralbanken enteignen!
   </h2>
 
   <div class="bg-black text-white py-6 mb-0 text-center">
-    <span class="mx-4 text-xl lg:text-3xl"
+    <span class="mx-4 text-xl lg:text-3xl italic"
       >Wer Geld verzockt wird nicht gerettet.</span
     >
   </div>
 
   <article
-    class="bg-white py-5 mt-0 m-2 mb-1 lg:flex justify-center items-center"
+    class="text-white font-bold py-5 mt-0 m-2 lg:flex justify-center items-center"
   >
-    <p class="  px-10 py-3 pt-6">
+    <p class="  mx-10 py-3 pt-6">
       Ich finde es schwierig, diese Aussage weniger radikal auszudrücken. Es
       kann nicht sein, dass private Verluste weiterhin sozialisiert werden. Ich
       hab keine Lust, an einer ewigen Wachstumspolitik festzuhalten. Wer ins
       Casino will, soll das selbst bezahlen.
     </p>
-    <p class="bg-white px-10 pb-3">
+    <p class="text-white px-10 pb-3">
       Bitcoin selbst hat keine Bankenrettungen. Wer sich entscheidet, mit
       risikobehafteten Geschäften zu handeln, hat nichts zu melden wenn es doch
       nicht so gut läuft.
     </p>
-    <p class="bg-white px-10 pb-3">
+    <p class="text-white px-10 pb-3">
       Im Gegensatz dazu stehen staatliche Währungen wie der Euro - wer da Geld
       verzockt, muss nur die richtigen Leute kennen, und denen verkaufen, dass
       das private Geschäft systemrelevant sei.
@@ -324,16 +329,16 @@
   </article>
 </section>
 
-<section
-  class="md:p-20 w-full bg-pirate-orange pb-10 px-3 flex flex-col items-center"
->
+<section class="md:p-20 bg-pirate-orange pb-10 px-3 flex flex-col items-center">
   <h2
     class=" text-white mb-5 bg-black text-4xl md:text-7xl scale-110 max-w-fit p-3 font-politics text-center"
   >
     TRANSPARENTER ALS POLITIK
   </h2>
-  <div class="flex flex-col items-center justify-center gap-7 p-5">
-    <p>
+  <div
+    class="flex flex-col md:flex-row items-center justify-center gap-7 md:gap-16 p-5"
+  >
+    <p class="md:max-w-xs">
       Alle Transaktionen auf der Bitcoin-Blockchain sind nachverfolgbar, der
       Quellcode ist <a
         class="text-volt-violet"
@@ -341,7 +346,7 @@
         >öffentlich einsehbar</a
       >.
     </p>
-    <p>
+    <p class="md:max-w-xs">
       Die Regeln des Geldsystems der EZB sind schwer zu durschschauen. Die von
       Bitcoin sind <a
         class="text-volt-violet"
@@ -351,16 +356,17 @@
     </p>
   </div>
 </section>
+
 <section class="flex flex-col lg:mx-20 md:w-96 m-2 p-0 border-black border-4">
   <div class="m-2 px-3 mb-0 py-1">
-    <h2 class="font-partei mb-10 text-black text-6xl py-4 pb-0">
+    <h2 class="font-partei text-black text-6xl py-3 pb-0">
       Stabiles Geld für Europa. Für alles andere gibt es den Euro.
     </h2>
   </div>
 
-  <h3
+  <span
     class="bg-partei-red px-0 scale-110 lg:scale-105 relative top-1 m-0 text-white text-xl p-4 text-center"
   >
     Wählt Bitcoin - es ist sehr gut!
-  </h3>
+  </span>
 </section>
