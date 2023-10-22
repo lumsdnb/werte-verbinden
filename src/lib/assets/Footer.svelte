@@ -55,7 +55,7 @@
   </span>
   <br />
   <span class="flex gap-1">
-    Fragen? schreib mir via:
+    Fragen? Schreib mir via:
     <a href="mailto:lumsdnb@skiff.com">Email</a> oder <a href="https://t.me/lumsdnb">Telegram</a>
   </span>
 </footer>

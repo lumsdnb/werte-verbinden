@@ -2,10 +2,7 @@
   import BitcoinSvg from '$lib/assets/BitcoinSVG.svelte';
   import moneysupply from '$lib/assets/images/euro money supply.webp';
   import purchasingpower from '$lib/assets/images/purchasing power.png';
-  import ContactForm from '$lib/ContactForm.svelte';
-  import FAQ from '$lib/FAQ.svelte';
     import InflationRate from '$lib/InflationRate.svelte'
-  import RainbowLine from '$lib/RainbowLine.svelte';
 </script>
 
 <header class="flex justify-between backdrop-blur-3xl">
@@ -351,7 +348,7 @@
   </div>
 </section>
 
-<section class="flex flex-col lg:mx-20 md:w-96 m-2 p-0 border-black border-4">
+<section class="flex flex-col lg:mx-20 md:w-96 m-2 mb-0 p-0 border-black border-4">
   <div class="m-2 px-3 mb-0 py-1">
     <h2 class="font-partei text-black text-6xl py-3 pb-0">
       Stabiles Geld für Europa. Für alles andere gibt es den Euro.
