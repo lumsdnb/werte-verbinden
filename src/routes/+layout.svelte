@@ -15,8 +15,9 @@
 
   <!-- <CommentBox /> -->
   <!-- <ContactForm /> -->
-  <Footer />
+  
 </main>
+  <Footer />
 
 <style>
   main {
