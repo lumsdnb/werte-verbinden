@@ -49,7 +49,7 @@
 </section>
 
 <section
-  class="lg:px-60 flex min-h-screen flex-col items-center bg-afd-blue text-white p-2 max-w-full font-barlow"
+  class="lg:px-60 flex flex-col items-center bg-afd-blue text-white p-2 max-w-full font-barlow"
 >
   <h2
     class="md:text-9xl text-7xl font-roboto lg:scale-125 lg:py-20 tracking-tighter p-5 text-center py-10"
@@ -184,7 +184,7 @@
   </div>
 </section>
 <section
-  class="lg:px-20 min-h-screen bg-volt-violet p-10 text-white font-ubuntu flex flex-col items-center gap-3"
+  class="lg:px-20 bg-volt-violet p-10 text-white font-ubuntu flex flex-col items-center gap-3"
 >
   <h2
     class="text-5xl lg:text-8xl max-w-lg lg:py-20 scale-125 m-5 font-ubuntubold p-3 tracking-tight"
@@ -206,17 +206,16 @@
       nicht.
     </p>
     <p>
-      Im Gegensatz zum Euro wird Bitcoin wird von seinen Teilnehmern
-      kontrolliert. Jeder mer des Netzwerks kann selbst prüfen, ob alle sich an
-      die Regeln halten. Bitcoin macht nicht an irgendwelchen Ländergrenzen
-      halt. Es interessiert sich auch nicht für deine Herkunft, oder deine
-      Hautfarbe.
+      Im Gegensatz zum Euro wird Bitcoin von seinen Teilnehmern kontrolliert.
+      Jeder kann selbst prüfen, ob sich alle an die Regeln halten. Bitcoin macht
+      nicht an irgendwelchen Ländergrenzen halt. Es interessiert sich auch nicht
+      für deine Herkunft, oder deine Hautfarbe.
     </p>
   </div>
 </section>
 
 <section
-  class="lg:px-20 min-h-screen bg-green-tanne text-green-sand p-10 flex flex-col items-center justify-center gap-3"
+  class="lg:px-20 bg-green-tanne text-green-sand p-10 flex flex-col items-center justify-center gap-3"
 >
   <h2
     class="lg:text-7xl md:max-w-xl text-left text-5xl scale-110 md:scale-125 md:p-5 sm:p-2 py-5 lg:py-10 font-roboto tracking-tighter"
@@ -251,7 +250,7 @@
 </section>
 
 <section
-  class="lg:px-20 min-h-screen bg-fdp-yellow p-10 flex flex-col justify-center items-center gap-3 lg:pb-20"
+  class="lg:px-20 bg-fdp-yellow p-10 flex flex-col justify-center items-center gap-3 lg:pb-20"
 >
   <h2
     class="text-fdp-blue text-6xl lg:text-9xl lg:py-20 scale-125 py-5 mb-7 font-roboto tracking-tight"
@@ -294,7 +293,7 @@
     </p>
   </div>
 </section>
-<section class="lg:px-20 min-h-screen bg-linke-red py-5 flex flex-col">
+<section class="lg:px-20 bg-linke-red py-5 flex flex-col">
   <h2
     class=" text-white relative -left-2 text-right scale-100 self-center font-inter text-5xl lg:text-9xl tracking-tighter p-10"
   >
@@ -307,19 +306,21 @@
     >
   </div>
 
-  <article class="bg-white py-5 mt-0 m-2 lg:flex justify-center items-center">
+  <article
+    class="text-white font-bold py-5 mt-0 m-2 lg:flex justify-center items-center"
+  >
     <p class="  mx-10 py-3 pt-6">
       Ich finde es schwierig, diese Aussage weniger radikal auszudrücken. Es
       kann nicht sein, dass private Verluste weiterhin sozialisiert werden. Ich
       hab keine Lust, an einer ewigen Wachstumspolitik festzuhalten. Wer ins
       Casino will, soll das selbst bezahlen.
     </p>
-    <p class="bg-white px-10 pb-3">
+    <p class="text-white px-10 pb-3">
       Bitcoin selbst hat keine Bankenrettungen. Wer sich entscheidet, mit
       risikobehafteten Geschäften zu handeln, hat nichts zu melden wenn es doch
       nicht so gut läuft.
     </p>
-    <p class="bg-white px-10 pb-3">
+    <p class="text-white px-10 pb-3">
       Im Gegensatz dazu stehen staatliche Währungen wie der Euro - wer da Geld
       verzockt, muss nur die richtigen Leute kennen, und denen verkaufen, dass
       das private Geschäft systemrelevant sei.
@@ -328,9 +329,7 @@
   </article>
 </section>
 
-<section
-  class="md:p-20 w-full min-h-screen bg-pirate-orange pb-10 px-3 flex flex-col items-center justify-center"
->
+<section class="md:p-20 bg-pirate-orange pb-10 px-3 flex flex-col items-center">
   <h2
     class=" text-white mb-5 bg-black text-4xl md:text-7xl scale-110 max-w-fit p-3 font-politics text-center"
   >
@@ -357,31 +356,14 @@
     </p>
   </div>
 </section>
+
 <section class="flex flex-col lg:mx-20 md:w-96 m-2 p-0 border-black border-4">
   <div class="m-2 px-3 mb-0 py-1">
     <h2 class="font-partei text-black text-6xl py-3 pb-0">
       Stabiles Geld für Europa. Für alles andere gibt es den Euro.
     </h2>
   </div>
-  <div class="flex flex-col p-5 gap-3 pb-5">
-    <p>
-      Früher war Geld einfach. Beträge waren nicht so groß, und die
-      Finanznachrichten waren leicht zu verstehen. Doch heute? Da braucht man
-      fast ein Mathematik Studium um die<a
-        href="https://taz.de/Grundgesetzaenderung-fuer-die-Bundeswehr/!5860270/"
-        >immer größer werdenden Zahlen</a
-      > in den Nachrichten zu verstehen. Es scheint, als ob nach und nach immer mehr
-      Nullen hinter der Zahl stehen.
-    </p>
-    <p>
-      Zum Glück gibt es dieses Problem mit Bitcoin nicht - wir haben nur <span
-        class="font-bold"
-      >
-        21 Millionen
-      </span> davon! Zum einen kann man sich das super merken, zum anderen können
-      wir es auch nicht mehr ändern. Für weniger Nullen im Finanzsystem!
-    </p>
-  </div>
+
   <span
     class="bg-partei-red px-0 scale-110 lg:scale-105 relative top-1 m-0 text-white text-xl p-4 text-center"
   >
