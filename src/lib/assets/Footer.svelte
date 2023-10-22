@@ -1,5 +1,24 @@
-<script>
+<script lang="ts">
   import RainbowLine from '$lib/RainbowLine.svelte';
+  import { onMount } from 'svelte';
+  let pageAvailable = false;
+  const checkWebsiteAvailability = async () => {
+    const url =
+      'https://timecatcher.lnbits.de/market/stalls/FZ6Kt7HJTTAY6AHYGqHqSE';
+
+    try {
+      const response = await fetch(url);
+
+      if (response.status === 200) {
+        console.log(`${url} is available.`);
+      } else {
+        console.log(`${url} is not available. Status code: ${response.status}`);
+      }
+    } catch (error: any) {
+      console.error(`Error checking ${url}: ${error.message}`);
+    }
+  };
+  onMount(checkWebsiteAvailability);
 </script>
 
 <RainbowLine />
@@ -10,17 +29,23 @@
     >Bevor sich jemand beschwert: dieses Projekt hat keine Assoziationen mit
     irgendwelchen Parteien - auch wenn es teilweise so aussieht. Kunstfreiheit
     und so.
-    <br />Geld ist ein komplexes Thema, und diese Webseite dient ausschließlich
-    zu Unterhaltungszwecken. Du solltest selbst recherchieren und weitere
-    Quellen evaluieren, bevor du finanzielle Entscheidungen triffst.</span
+    <br />
+    Geld ist ein komplexes Thema, und diese Webseite dient ausschließlich zu Unterhaltungszwecken.
+    Du solltest selbst recherchieren und weitere Quellen evaluieren, bevor du finanzielle
+    Entscheidungen triffst.</span
   >
   <br />
-  <span class="text-xs"
-    ><a
-      href="https://timecatcher.lnbits.de/market/stalls/FZ6Kt7HJTTAY6AHYGqHqSE"
-      >Sticker bestellen (Bitcoin only)</a
-    ></span
-  >
+  <span class="text-xs">
+    {#if pageAvailable}
+      <a
+        href="https://timecatcher.lnbits.de/market/stalls/FZ6Kt7HJTTAY6AHYGqHqSE"
+        >Sticker bestellen (Bitcoin only)</a
+      >
+    {:else}
+      <span class="text-cdu-red">Sticker Shop ist aktuell nicht online 😭</span
+      >
+    {/if}
+  </span>
   <span class="text-xs mt-3">
     © 2023 - Made with 🧡 by <a
       href="https://lums.io"
@@ -29,5 +54,8 @@
     >
   </span>
   <br />
-  <a href="mailto:lumsdnb@skiff.com">Kontakt</a>
+  <span class="flex gap-1">
+    Fragen? schreib mir via:
+    <a href="mailto:lumsdnb@skiff.com">Email</a> oder <a href="https://t.me/lumsdnb">Telegram</a>
+  </span>
 </footer>
