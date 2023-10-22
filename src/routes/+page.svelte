@@ -261,7 +261,7 @@
       >Markt.</span
     >
   </h2>
-  <div class="md:flex gap-10">
+  <div class="flex flex-col md:flex-row gap-3">
     <p class="md:w-10/12">
       Bitcoin wird immer wieder als <a
         class="text-fdp-magenta font-bold"
@@ -307,24 +307,26 @@
   </div>
 
   <article
-    class="text-white font-bold py-5 mt-0 m-2 lg:flex justify-center items-center"
+    class="bg-white text-black py-5 mt-0 m-2 lg:flex justify-center items-center"
   >
-    <p class="  mx-10 py-3 pt-6">
+    <p class="bg-white mx-10 py-3 pt-6">
       Ich finde es schwierig, diese Aussage weniger radikal auszudrücken. Es
       kann nicht sein, dass private Verluste weiterhin sozialisiert werden. Ich
       hab keine Lust, an einer ewigen Wachstumspolitik festzuhalten. Wer ins
       Casino will, soll das selbst bezahlen.
     </p>
-    <p class="text-white px-10 pb-3">
+    <p class="bg-white px-10 pb-3">
       Bitcoin selbst hat keine Bankenrettungen. Wer sich entscheidet, mit
       risikobehafteten Geschäften zu handeln, hat nichts zu melden wenn es doch
       nicht so gut läuft.
     </p>
-    <p class="text-white px-10 pb-3">
-      Im Gegensatz dazu stehen staatliche Währungen wie der Euro - wer da Geld
+    <p class="bg-white text px-10 pb-3">
+      Im Gegensatz dazu stehen staatliche Währungen wie der Euro. Wer da Geld
       verzockt, muss nur die richtigen Leute kennen, und denen verkaufen, dass
       das private Geschäft systemrelevant sei.
-      <br /> Bei welcher Partei muss ich ein Kreuz machen, damit das aufhört?
+    </p>
+    <p class="bg-white text px-10 pb-3 font-bold">
+      Bei welcher Partei muss ich ein Kreuz machen, damit das endlich aufhört?
     </p>
   </article>
 </section>
