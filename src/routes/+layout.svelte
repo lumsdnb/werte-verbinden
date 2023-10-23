@@ -15,14 +15,12 @@
 
   <!-- <CommentBox /> -->
   <!-- <ContactForm /> -->
-  
 </main>
-  <Footer />
+<Footer />
 
 <style>
   main {
-    overflow-x: hidden;
-    width: 100vw;
+    /* width: 100vw; */
     scrollbar-gutter: stable both-edges;
   }
 </style>
