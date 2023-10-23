@@ -6,18 +6,25 @@
     const url =
       'https://timecatcher.lnbits.de/market/stalls/FZ6Kt7HJTTAY6AHYGqHqSE';
 
+    console.log('Checking website availability...');
+
     try {
       const response = await fetch(url);
 
       if (response.status === 200) {
         console.log(`${url} is available.`);
+        pageAvailable = true;
       } else {
-        console.log(`${url} is not available. Status code: ${response.status}`);
+        console.error(
+          `${url} is not available. Status code: ${response.status}`
+        );
+        pageAvailable = false;
       }
     } catch (error: any) {
       console.error(`Error checking ${url}: ${error.message}`);
     }
   };
+
   onMount(checkWebsiteAvailability);
 </script>
 
@@ -42,8 +49,7 @@
         >Sticker bestellen (Bitcoin only)</a
       >
     {:else}
-      <span class="text-cdu-red">Sticker Shop ist aktuell nicht online 😭</span
-      >
+      <span class="text-cdu-red">Sticker Shop ist aktuell nicht online 😭</span>
     {/if}
   </span>
   <span class="text-xs mt-3">
@@ -56,6 +62,7 @@
   <br />
   <span class="flex gap-1">
     Fragen? Schreib mir via:
-    <a href="mailto:lumsdnb@skiff.com">Email</a> oder <a href="https://t.me/lumsdnb">Telegram</a>
+    <a href="mailto:lumsdnb@skiff.com">Email</a> oder
+    <a href="https://t.me/lumsdnb">Telegram</a>
   </span>
 </footer>
