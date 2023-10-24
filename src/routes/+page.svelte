@@ -78,11 +78,7 @@
             href="https://data.ecb.europa.eu/publications/money-credit-and-banking/3031796"
             >offiziellen Daten</a
           >
-          sieht die Realität anders aus.
-        </p>
-        <p class="px-5">
-          Der Euro setzt sich aus mehreren Geldformen M1-M4 zusammen. <br />
-          Jede davon wächst immer weiter, egal ob Krise oder nicht.
+          sieht die Realität anders aus. Jede Form des Euros (Bargeld, Kredite etc.) wächst immer weiter, egal ob Krise oder nicht.
         </p>
       </div>
       <img src={moneysupply} alt="money supply of the euro" />
@@ -125,12 +121,7 @@
         <h3 class="mt-4 py-3 text-4xl">Was macht das mit uns?</h3>
         <ul class="flex list-disc flex-col gap-2 pl-5 md:pl-10">
           <li>
-            Vor der Finanzkrise 2008 gab es 2% Zinsen auf dem Sparbuch. Seitdem
-            lohnt es sich nicht mehr, Geld zu sparen. Es lohnt sich mehr Um den
-            wertverlust unserer ersparnisse auszugleichen, . fueher gabs mehr
-            zinsen es lohnt sich mehr, das geld zu investieren. Wer es sich
-            leisten kann, überlässt das dem Finanzberater. Der Rest muss das
-            halt nach der Arbeit machen.
+            Inflation schafft Anreize, Geld schneller auszugeben als geplant. Da sich Geld sparen immer weniger lohnt, werden Menschen indirekt gezwungen, es zu investieren.
           </li>
           <li>Immobilien werden zu Wertanlagen, statt Wohnobjekten.</li>
           <li>
@@ -144,17 +135,11 @@
           class="flex flex-col gap-5 pb-5 md:flex-row md:items-center md:gap-10"
         >
           <p class="md:w-1/2">
-            <a
-              href="https://www.ecb.europa.eu/ecb/tasks/monpol/html/index.de.html"
-              >Laut eigenen Aussagen der EZB</a
-            > ist eine gewisse Inflation gewollt. Zu hohe Inflation entwertet das
-            Ersparte. Doch wenn Geld immer mehr an mehr Wert gewinnt, verschiebt
-            man seine Kaufentscheidungen in die Zukunft.
+            <a href="https://www.ecb.europa.eu/ecb/tasks/monpol/html/index.de.html">Nach Auffassung der EZB</a> ist eine zu niedrige Inflation genauso schlecht wie eine zu hohe. Denn wenn Geld immer mehr Wert wird, wächst die Wirtschaft langsamer.
           </p>
           <p class="md:w-1/2">
-            Würdest du mit 0% monetärer Inflation plötzlich aufhören, dein
-            ganzes Geld auszugeben? Oder würdest du dir mehr Gedanken darüber
-            machen, wirklich sinnvolle Investitionen in deine Zukunft zu
+            Würdest du dein Geld nicht mehr ausgeben wenn es jedes Jahr mehr Wert wird? Oder würdest du dir mehr Gedanken darüber
+            machen, nachhaltige Investitionen in deine Zukunft zu
             tätigen,
             <span class="italic font-bold">
               die mehr als nur Geld wert sind?</span
@@ -247,7 +232,7 @@
       >Markt.</span
     >
   </h2>
-  <div class="flex flex-col md:flex-row gap-3 max-w-3xl">
+  <div class="flex flex-col md:flex-row gap-5 max-w-3xl">
     <p class="md:w-10/12">
       Bitcoin wird immer wieder als <a
         class="text-fdp-magenta font-bold"
