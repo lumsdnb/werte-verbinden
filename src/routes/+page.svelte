@@ -1,5 +1,6 @@
 <script>
   import BitcoinSvg from '$lib/assets/BitcoinSVG.svelte';
+  import DiePartei from '$lib/assets/DiePartei.svelte'
   import moneysupply from '$lib/assets/images/euro money supply.webp';
   import purchasingpower from '$lib/assets/images/purchasing power.png';
   import InflationRate from '$lib/InflationRate.svelte';
@@ -53,11 +54,11 @@
 >
   <div class="sm:max-w-screen-sm md:max-w-5xl">
     <h2
-      class="p-5 py-10 text-center font-roboto text-7xl tracking-tighter md:text-9xl lg:scale-125 lg:py-20"
+      class="p-5 py-8 text-center font-roboto text-7xl tracking-tighter md:text-9xl lg:scale-125 lg:py-20"
     >
       Raus aus <br />dem Euro!
     </h2>
-    <div class="mx-2 bg-white text-black md:p-16">
+    <div class="mx-2 bg-white text-black md:p-16 rounded-sm pt-5">
       <p class="px-5">
         Wir nutzen täglich den Euro, weil er als stabil gilt. Ist das wirklich
         so?
@@ -329,26 +330,12 @@
     <p class="md:max-w-xs">
       Die Regeln des Geldsystems der EZB sind schwer zu durschschauen. Die von
       Bitcoin sind <a
-        class="text-volt-violet"
-        href="https://bitcoin.stackexchange.com/questions/48085/how-many-bitcoins-are-there-currently-in-circulation/48087#48087"
-        >jederzeit berechenbar</a
+      class="text-volt-violet"
+      href="https://bitcoin.stackexchange.com/questions/48085/how-many-bitcoins-are-there-currently-in-circulation/48087#48087"
+      >jederzeit berechenbar</a
       >.
     </p>
   </div>
 </section>
 
-<section
-  class="flex flex-col lg:mx-20 md:w-96 m-2 mb-0 p-0 border-black border-4"
->
-  <div class="m-2 px-3 mb-0 py-1">
-    <h2 class="font-partei text-black text-6xl py-3 pb-0">
-      Stabiles Geld für Europa. Für alles andere gibt es den Euro.
-    </h2>
-  </div>
-
-  <span
-    class="bg-partei-red px-0 scale-110 lg:scale-105 relative top-1 m-0  text-white text-xl p-4 text-center"
-  >
-    Wählt Bitcoin - es ist sehr gut!
-  </span>
-</section>
+<div class="m-5"><DiePartei/></div>
