@@ -1,13 +1,15 @@
 <script>
   import BitcoinSvg from '$lib/assets/BitcoinSVG.svelte';
+  import DiePartei from '$lib/assets/DiePartei.svelte'
   import moneysupply from '$lib/assets/images/euro money supply.webp';
   import purchasingpower from '$lib/assets/images/purchasing power.png';
-    import InflationRate from '$lib/InflationRate.svelte'
+  import InflationRate from '$lib/InflationRate.svelte';
 </script>
 
 <header class="flex justify-between backdrop-blur-3xl">
   <h1 class="invisible absolute top-0 left-0">
-    Werte verbinden - das Thema was alle betrifft, aber kaum jemand drüber redet.
+    Werte verbinden - das Thema was alle betrifft, aber kaum jemand drüber
+    redet.
   </h1>
 </header>
 
@@ -25,9 +27,9 @@
       class="md:min-w-fit flex flex-col md:flex-row md:items-center gap-y-5 gap-x-10 pt-10 md:minmin-w-fit md:w-10/12 md:py-20"
     >
       <p class="md:w-1/2 md:max-w-xs">
-        Über Geld und wo es herkommt redet man nicht. In politischen Debatten und
-        Wahlprogrammen dreht es sich in erster Linie darum, was man damit machen
-        will. <br />
+        Über Geld und wo es herkommt redet man nicht. In politischen Debatten
+        und Wahlprogrammen dreht es sich in erster Linie darum, was man damit
+        machen will. <br />
       </p>
       <p class="md:w-1/2 md:max-w-xs">
         <a
@@ -52,17 +54,17 @@
 >
   <div class="sm:max-w-screen-sm md:max-w-5xl">
     <h2
-      class="p-5 py-10 text-center font-roboto text-7xl tracking-tighter md:text-9xl lg:scale-125 lg:py-20"
+      class="p-5 py-8 text-center font-roboto text-7xl tracking-tighter md:text-9xl lg:scale-125 lg:py-20"
     >
       Raus aus <br />dem Euro!
     </h2>
-    <div class="mx-2 bg-white text-black md:p-16">
+    <div class="mx-2 bg-white text-black md:p-16 rounded-sm pt-5">
       <p class="px-5">
-        Wir nutzen täglich den Euro, weil er als stabil gilt. Ist das
-        wirklich so?
+        Wir nutzen täglich den Euro, weil er als stabil gilt. Ist das wirklich
+        so?
       </p>
       <div class="mb-4 flex flex-col justify-end py-3">
-        <img src="{purchasingpower}" alt="money supply of the euro" />
+        <img src={purchasingpower} alt="money supply of the euro" />
         <aside class="px-5 text-right italic text-gray-100">
           <a
             href="https://www.statista.com/statistics/1055948/value-euro-since-2000/"
@@ -77,14 +79,10 @@
             href="https://data.ecb.europa.eu/publications/money-credit-and-banking/3031796"
             >offiziellen Daten</a
           >
-          sieht die Realität anders aus.
-        </p>
-        <p class="px-5">
-          Der Euro setzt sich aus mehreren Geldformen M1-M4 zusammen. <br />
-          Jede davon wächst immer weiter, egal ob Krise oder nicht.
+          sieht die Realität anders aus. Jede Form des Euros (Bargeld, Kredite etc.) wächst immer weiter, egal ob Krise oder nicht.
         </p>
       </div>
-      <img src="{moneysupply}" alt="money supply of the euro" />
+      <img src={moneysupply} alt="money supply of the euro" />
       <aside class="mb-4 px-5 text-right text-gray-100">
         <a
           target="_blank"
@@ -109,79 +107,67 @@
             <a
               class="text-xl font-bold"
               href="https://www.ecb.europa.eu/home/search/review/html/price-stability-objective.de.html"
-              >2% </a
-            >pro Jahr wirkt verheerend -
+              >2%
+            </a>pro Jahr wirkt verheerend -
             <span class="text-xl font-bold text-green-tanne saturate-50"
               >1000</span
             >
-            Euro auf dem Sparkonto sind damit nach etwa 5 Jahren nur noch
-            ungefähr
+            Euro auf dem Sparkonto sind damit nach etwa 5 Jahren nur noch ungefähr
             <span class="text-xl font-bold text-cdu-red">905</span> Euro wert.
           </p>
         </div>
       </div>
-      <p class="mb-10 mt-3 px-5 md:m-5">
-        Viel mehr braucht es gar nicht um die Wichtigkeit von Bitcoin zu
-        verstehen. Denn was dieser Zwang zu investieren mit jedem Bereich
-        unserer Gesellschaft macht, ist unvorstellbar und kann von keiner
-        Statistik quantifiziert werden.
-      </p>
 
       <div class="px-5">
         <h3 class="mt-4 py-3 text-4xl">Was macht das mit uns?</h3>
         <ul class="flex list-disc flex-col gap-2 pl-5 md:pl-10">
           <li>
-            Menschen werden gezwungen, ihr Geld zu investieren. Wer es sich
-            leisten kann, überlässt das dem Finanzberater. Der Rest muss das
-            halt nach der Arbeit machen.
+            Inflation schafft Anreize, Geld schneller auszugeben als geplant. Da sich Geld sparen immer weniger lohnt, werden Menschen indirekt gezwungen, es zu investieren.
           </li>
           <li>Immobilien werden zu Wertanlagen, statt Wohnobjekten.</li>
           <li>
             Statt sich gründlich Gedanken zu nachhaltigen Investitionen zu
-            machen, werden spekulative Geschäfte lukrativer. Warum warten, wenn
-            der Wertverlust des eigenen Geldes vorprogrammiert ist?
+            machen, werden spekulative Geschäfte attraktiver.
           </li>
         </ul>
-        
+
         <h3 class="mb-3 mt-10 text-4xl">Warum ist das so?</h3>
-      <div
-        class="flex flex-col gap-5 pb-5 md:flex-row md:items-center md:gap-10"
+        <div
+          class="flex flex-col gap-5 pb-5 md:flex-row md:items-center md:gap-10"
         >
-        <p class="md:w-1/2">
-          <a href="https://www.ecb.europa.eu/ecb/tasks/monpol/html/index.de.html">Laut eigenen Aussagen der EZB</a> ist eine gewisse Inflation gewollt. Zu
-          hohe Inflation entwertet das Ersparte, zu niedrige hält Menschen davon
-          ab, ihr Geld auszugeben.
-          Schließlich muss ja die Wirtschaft angekurbelt werden!
+          <p class="md:w-1/2">
+            <a href="https://www.ecb.europa.eu/ecb/tasks/monpol/html/index.de.html">Nach Auffassung der EZB</a> ist selbst eine geringe Inflation gewollt. Denn wenn Geld immer mehr Wert wird, gibt es weniger Anreize, in die Wirtschaft zu investieren.
           </p>
           <p class="md:w-1/2">
-            Würdest du mit 0% monetärer Inflation plötzlich aufhören, dein ganzes
-          Geld auszugeben? Oder würdest du dir mehr Gedanken darüber machen,
-          wirklich sinnvolle Investitionen in deine Zukunft zu tätigen,
-          <span class="italic font-bold"> die mehr als nur Geld wert sind?</span>
-        </p>
+            Würdest du dein Geld nicht mehr ausgeben wenn es jedes Jahr mehr Wert wird? Oder würdest du dir mehr Gedanken darüber
+            machen, nachhaltige Investitionen in deine Zukunft zu
+            tätigen,
+            <span class="italic font-bold">
+              die mehr als nur Geld wert sind?</span
+            >
+          </p>
+        </div>
       </div>
     </div>
   </div>
-  </div>
 </section>
 
-    
-
-    
-    
-    <section
-    class="lg:px-20 bg-volt-violet p-10  min-w-full text-white font-ubuntu flex flex-col items-center gap-3"
-    >
-    <h2
+<section
+  class="lg:px-20 bg-volt-violet p-10 min-w-full text-white font-ubuntu flex flex-col items-center gap-3"
+>
+  <h2
     class="text-5xl lg:text-8xl max-w-4xl lg:py-20 scale-125 m-5 font-ubuntubold p-3 tracking-tight"
-    >
+  >
     Stabile Währung wie in der Schweiz.
   </h2>
   <div class="px-0 md:px-10 md:mb-10 flex max-w-5xl flex-col gap-5 lg:flex-row">
     <p>
-      
-        Volt ist "überzeugt, dass gemeinsame Herausforderungen grenzübergreifende Lösungen brauchen.
-      Wer es mit der Zukunft Europas ernst meint, muss europäisch denken und handeln." <a target="_blank" href="https://www.voltdeutschland.org/themen">*</a>
+      Volt ist "überzeugt, dass gemeinsame Herausforderungen grenzübergreifende
+      Lösungen brauchen. Wer es mit der Zukunft Europas ernst meint, muss
+      europäisch denken und handeln." <a
+        target="_blank"
+        href="https://www.voltdeutschland.org/themen">*</a
+      >
     </p>
     <p>
       Ich sehe das ähnlich und gehe noch einen Schritt weiter: wer es mit der
@@ -247,7 +233,7 @@
       >Markt.</span
     >
   </h2>
-  <div class="flex flex-col md:flex-row gap-3 max-w-3xl">
+  <div class="flex flex-col md:flex-row gap-5 max-w-3xl">
     <p class="md:w-10/12">
       Bitcoin wird immer wieder als <a
         class="text-fdp-magenta font-bold"
@@ -279,11 +265,13 @@
     </p>
   </div>
 </section>
-<section class="lg:px-20 min-w-full bg-linke-red py-5 pb-0 mb-0 justify-center items-center flex flex-col">
+<section
+  class="lg:px-20 min-w-full bg-linke-red py-5 pb-0 mb-0 justify-center items-center flex flex-col"
+>
   <h2
     class=" text-white relative -left-2 text-right scale-100 self-center font-inter text-5xl lg:text-9xl tracking-tighter p-10"
   >
-    Zentralbanken <br> enteignen!
+    Zentralbanken <br /> enteignen!
   </h2>
 
   <div class=" max-w-5xl">
@@ -297,24 +285,26 @@
     >
       <p class="bg-white mx-10 py-3 pt-6">
         Ich finde es schwierig, diese Aussage weniger radikal auszudrücken. Es
-        kann nicht sein, dass private Verluste weiterhin sozialisiert werden. Ich
-        hab keine Lust, an einer ewigen Wachstumspolitik festzuhalten. Wer ins
-        Casino will, soll das selbst bezahlen.
+        kann nicht sein, dass private Verluste weiterhin sozialisiert werden.
+        Ich hab keine Lust, an einer ewigen Wachstumspolitik festzuhalten. Wer
+        ins Casino will, soll das selbst bezahlen.
       </p>
       <p class="bg-white px-10 pb-3">
         Bitcoin selbst hat keine Bankenrettungen. Wer sich entscheidet, mit
-        risikobehafteten Geschäften zu handeln, hat nichts zu melden wenn es doch
-        nicht so gut läuft.
+        risikobehafteten Geschäften zu handeln, hat nichts zu melden wenn es
+        doch nicht so gut läuft.
       </p>
       <div>
         <p class="bg-white text px-10 pb-3">
-          Im Gegensatz dazu stehen staatliche Währungen wie der Euro. Wer da Geld
-          verzockt, muss nur die richtigen Leute kennen, und denen verkaufen, dass
-          das private Geschäft systemrelevant sei.
+          Im Gegensatz dazu stehen staatliche Währungen wie der Euro. Wer da
+          Geld verzockt, muss nur die richtigen Leute kennen, und denen
+          verkaufen, dass das private Geschäft systemrelevant sei.
         </p>
       </div>
     </article>
-    <p class="bg-white max-w-6xl  font-black py-5 mt-0 px-5 m-2 ">Bei welcher Partei muss ich mein Kreuz machen, damit das endlich aufhört?</p>
+    <p class="bg-white max-w-6xl font-black py-5 mt-0 px-5 m-2">
+      Bei welcher Partei muss ich mein Kreuz machen, damit das endlich aufhört?
+    </p>
   </div>
 </section>
 
@@ -340,24 +330,12 @@
     <p class="md:max-w-xs">
       Die Regeln des Geldsystems der EZB sind schwer zu durschschauen. Die von
       Bitcoin sind <a
-        class="text-volt-violet"
-        href="https://bitcoin.stackexchange.com/questions/48085/how-many-bitcoins-are-there-currently-in-circulation/48087#48087"
-        >jederzeit berechenbar</a
+      class="text-volt-violet"
+      href="https://bitcoin.stackexchange.com/questions/48085/how-many-bitcoins-are-there-currently-in-circulation/48087#48087"
+      >jederzeit berechenbar</a
       >.
     </p>
   </div>
 </section>
 
-<section class="flex flex-col lg:mx-20 md:w-96 m-2 mb-0 p-0 border-black border-4">
-  <div class="m-2 px-3 mb-0 py-1">
-    <h2 class="font-partei text-black text-6xl py-3 pb-0">
-      Stabiles Geld für Europa. Für alles andere gibt es den Euro.
-    </h2>
-  </div>
-
-  <span
-    class="bg-partei-red px-0 scale-110 lg:scale-105 relative top-1 m-0 text-white text-xl p-4 text-center"
-  >
-    Wählt Bitcoin - es ist sehr gut!
-  </span>
-</section>
+<div class="m-5"><DiePartei/></div>

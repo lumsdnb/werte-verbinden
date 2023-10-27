@@ -9,20 +9,18 @@
 <svelte:head><title>Werte verbinden</title></svelte:head>
 <RainbowLine />
 <main
-  class=" m-0 p-0 text-lg lg:text-xl w-full flex items-center flex-col justify-center"
+  class=" m-0 p-0 text-lg lg:text-xl  flex items-center flex-col justify-center overflow-hidden"
 >
   <slot />
 
   <!-- <CommentBox /> -->
   <!-- <ContactForm /> -->
-  
 </main>
-  <Footer />
+<Footer />
 
 <style>
   main {
-    overflow-x: hidden;
-    width: 100vw;
+    /* width: 100vw; */
     scrollbar-gutter: stable both-edges;
   }
 </style>
