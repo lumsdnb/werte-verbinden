@@ -9,7 +9,7 @@
 <svelte:head><title>Werte verbinden</title></svelte:head>
 <RainbowLine />
 <main
-  class=" m-0 p-0 text-lg lg:text-xl w-full flex items-center flex-col justify-center"
+  class=" m-0 p-0 text-lg lg:text-xl  flex items-center flex-col justify-center overflow-hidden"
 >
   <slot />
 
