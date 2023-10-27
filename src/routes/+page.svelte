@@ -126,7 +126,7 @@
           <li>Immobilien werden zu Wertanlagen, statt Wohnobjekten.</li>
           <li>
             Statt sich gründlich Gedanken zu nachhaltigen Investitionen zu
-            machen, werden spekulative Geschäfte lukrativer.
+            machen, werden spekulative Geschäfte attraktiver.
           </li>
         </ul>
 
@@ -135,7 +135,7 @@
           class="flex flex-col gap-5 pb-5 md:flex-row md:items-center md:gap-10"
         >
           <p class="md:w-1/2">
-            <a href="https://www.ecb.europa.eu/ecb/tasks/monpol/html/index.de.html">Nach Auffassung der EZB</a> ist eine zu niedrige Inflation genauso schlecht wie eine zu hohe. Denn wenn Geld immer mehr Wert wird, wächst die Wirtschaft langsamer.
+            <a href="https://www.ecb.europa.eu/ecb/tasks/monpol/html/index.de.html">Nach Auffassung der EZB</a> ist selbst eine geringe Inflation gewollt. Denn wenn Geld immer mehr Wert wird, gibt es weniger Anreize, in die Wirtschaft zu investieren.
           </p>
           <p class="md:w-1/2">
             Würdest du dein Geld nicht mehr ausgeben wenn es jedes Jahr mehr Wert wird? Oder würdest du dir mehr Gedanken darüber
@@ -347,7 +347,7 @@
   </div>
 
   <span
-    class="bg-partei-red px-0 scale-110 lg:scale-105 relative top-1 m-0 text-white text-xl p-4 text-center"
+    class="bg-partei-red px-0 scale-110 lg:scale-105 relative top-1 m-0  text-white text-xl p-4 text-center"
   >
     Wählt Bitcoin - es ist sehr gut!
   </span>
